@@ -5,6 +5,7 @@ import (
 	"github.com/rshulabs/micro-frame/pkg/logx"
 )
 
+// 运行函数
 func Run(cfg *config.Config) error {
 	logx.Info(cfg.String())
 	return nil

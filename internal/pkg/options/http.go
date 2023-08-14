@@ -27,6 +27,6 @@ func (h *HttpOption) Validate() []error {
 }
 
 func (h *HttpOption) AddFlags(fs *pflag.FlagSet) {
-	fs.StringVar(&h.Host, "grpc.host", h.Host, "The http host.")
-	fs.IntVar(&h.Port, "grpc.port", h.Port, "The http port.")
+	fs.StringVar(&h.Host, "http.host", h.Host, "The http host.")
+	fs.IntVar(&h.Port, "http.port", h.Port, "The http port.")
 }

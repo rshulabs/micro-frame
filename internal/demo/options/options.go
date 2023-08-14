@@ -22,7 +22,7 @@ func NewOptions() *Options {
 }
 
 func (o *Options) Flags() (fss app.FlagSets) {
-	// 分组
+	// 分组 map[app]flagset
 	o.App.AddFlags(fss.FlagSet("app"))
 	o.Grpc.AddFlags(fss.FlagSet("grpc"))
 	o.Http.AddFlags(fss.FlagSet("http"))

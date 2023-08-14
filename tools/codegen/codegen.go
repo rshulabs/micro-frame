@@ -39,7 +39,7 @@ var errCodeDocPrefix = `# 错误码
 
 ## 错误码列表
 
-IAM 系统支持的错误码列表如下：
+支持的错误码列表如下：
 
 | Identifier | Code | HTTP Code | Description |
 | ---------- | ---- | --------- | ----------- |

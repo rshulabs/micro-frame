@@ -16,7 +16,7 @@ func NewApp(basename string) *app.App {
 
 func run(opts *options.Options) app.RunFunc {
 	return func(basename string) error {
-		// 日志
+		// TODO 日志初始化
 		cfg, err := config.CreateConfigFromOptions(opts)
 		if err != nil {
 			return err
