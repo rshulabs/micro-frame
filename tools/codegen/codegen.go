@@ -22,7 +22,7 @@ import (
 
 var errCodeDocPrefix = `# 错误码
 
-!! demo 系统错误码列表，由 {{.}}codegen -type=int -doc{{.}} 命令生成，不要对此文件做任何更改。
+!! 错误码列表，由 {{.}}codegen -type=int -doc{{.}} 命令生成，不要对此文件做任何更改。
 
 ## 功能说明
 
