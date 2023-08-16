@@ -7,12 +7,14 @@ import (
 )
 
 type AppOption struct {
-	Name string `json:"name" mapstructure:"name" yaml:"name"`
+	Name        string `json:"name" mapstructure:"name" yaml:"name"`
+	IsStartHttp bool   `json:"is_start_http" mapstructure:"is_start_http" yaml:"is_start_http"`
 }
 
 func NewAppOption() *AppOption {
 	return &AppOption{
-		Name: "",
+		Name:        "",
+		IsStartHttp: false,
 	}
 }
 
@@ -26,4 +28,5 @@ func (a *AppOption) Validate() []error {
 
 func (a *AppOption) AddFlags(fs *pflag.FlagSet) {
 	fs.StringVar(&a.Name, "app.name", a.Name, "The binary name of app")
+	fs.BoolVar(&a.IsStartHttp, "app.is_start_http", a.IsStartHttp, "Control the http server.")
 }

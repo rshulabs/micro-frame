@@ -11,6 +11,7 @@ type Options struct {
 	App  *options.AppOption  `json:"app" mapstructure:"app" yaml:"app"`
 	Grpc *options.GrpcOption `json:"grpc" mapstructure:"grpc" yaml:"grpc"`
 	Http *options.HttpOption `json:"http" mapstructure:"http" yaml:"http"`
+	Etcd *options.EtcdOption `json:"etcd" mapstructure:"etcd" yaml:"etcd"`
 }
 
 func NewOptions() *Options {
@@ -18,6 +19,7 @@ func NewOptions() *Options {
 		App:  options.NewAppOption(),
 		Grpc: options.NewGrpcOption(),
 		Http: options.NewHttpOption(),
+		Etcd: options.NewEtcdOption(),
 	}
 }
 
@@ -26,6 +28,7 @@ func (o *Options) Flags() (fss app.FlagSets) {
 	o.App.AddFlags(fss.FlagSet("app"))
 	o.Grpc.AddFlags(fss.FlagSet("grpc"))
 	o.Http.AddFlags(fss.FlagSet("http"))
+	o.App.AddFlags(fss.FlagSet("etcd"))
 	return fss
 }
 

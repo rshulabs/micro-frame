@@ -30,3 +30,7 @@ func (h *HttpOption) AddFlags(fs *pflag.FlagSet) {
 	fs.StringVar(&h.Host, "http.host", h.Host, "The http host.")
 	fs.IntVar(&h.Port, "http.port", h.Port, "The http port.")
 }
+
+func (h *HttpOption) Addr() string {
+	return fmt.Sprintf("%s:%d", h.Host, h.Port)
+}
