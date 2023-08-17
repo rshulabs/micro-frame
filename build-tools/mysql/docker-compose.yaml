@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  mysql: #mysql容器
+    image: mysql
+    container_name: mysql
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: "root" #这里自行设置root用户的密码
+    volumes:
+      - ./etc/my.cnf/:/etc/my.cnf/
+      - ./datadir:/var/lib/mysql
+      - ./etc/initdb.d:/docker-entrypoint-initdb.d
+      - ./etc/mysql/my.cnf:/etc/mysql/my.cnf # 这里挂载容器中mysql的配置文件
+    ports:
+      - 3306:3306 #宿主机和容器间的端口映射，可自行配置
