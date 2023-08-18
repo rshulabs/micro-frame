@@ -22,3 +22,8 @@ go.work
 
 # directory
 dist/
+build-tools/mysql/data/
+build-tools/rocketmq/conf/
+build-tools/rocketmq/console/
+build-tools/rocketmq/logs/
+build-tools/rocketmq/store/

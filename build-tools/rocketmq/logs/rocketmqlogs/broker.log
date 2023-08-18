@@ -1,247 +1,1230 @@
-2023-08-17 16:03:20 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
-2023-08-17 16:03:20 INFO main - namesrvAddr=rmqnamesrv:9876
-2023-08-17 16:03:20 INFO main - brokerIP1=192.168.60.34
-2023-08-17 16:03:20 INFO main - brokerIP2=172.20.0.4
-2023-08-17 16:03:20 INFO main - brokerName=broker-a
-2023-08-17 16:03:20 INFO main - brokerClusterName=DefaultCluster
-2023-08-17 16:03:20 INFO main - brokerId=0
-2023-08-17 16:03:20 INFO main - brokerPermission=6
-2023-08-17 16:03:20 INFO main - defaultTopicQueueNums=8
-2023-08-17 16:03:20 INFO main - autoCreateTopicEnable=true
-2023-08-17 16:03:20 INFO main - clusterTopicEnable=true
-2023-08-17 16:03:20 INFO main - brokerTopicEnable=true
-2023-08-17 16:03:20 INFO main - autoCreateSubscriptionGroup=true
-2023-08-17 16:03:20 INFO main - messageStorePlugIn=
-2023-08-17 16:03:20 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
-2023-08-17 16:03:20 INFO main - traceTopicEnable=false
-2023-08-17 16:03:20 INFO main - sendMessageThreadPoolNums=1
-2023-08-17 16:03:20 INFO main - pullMessageThreadPoolNums=20
-2023-08-17 16:03:20 INFO main - queryMessageThreadPoolNums=10
-2023-08-17 16:03:20 INFO main - adminBrokerThreadPoolNums=16
-2023-08-17 16:03:20 INFO main - clientManageThreadPoolNums=32
-2023-08-17 16:03:20 INFO main - consumerManageThreadPoolNums=32
-2023-08-17 16:03:20 INFO main - heartbeatThreadPoolNums=2
-2023-08-17 16:03:20 INFO main - endTransactionThreadPoolNums=12
-2023-08-17 16:03:20 INFO main - flushConsumerOffsetInterval=5000
-2023-08-17 16:03:20 INFO main - flushConsumerOffsetHistoryInterval=60000
-2023-08-17 16:03:20 INFO main - rejectTransactionMessage=false
-2023-08-17 16:03:20 INFO main - fetchNamesrvAddrByAddressServer=false
-2023-08-17 16:03:20 INFO main - sendThreadPoolQueueCapacity=10000
-2023-08-17 16:03:20 INFO main - pullThreadPoolQueueCapacity=100000
-2023-08-17 16:03:20 INFO main - queryThreadPoolQueueCapacity=20000
-2023-08-17 16:03:20 INFO main - clientManagerThreadPoolQueueCapacity=1000000
-2023-08-17 16:03:20 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
-2023-08-17 16:03:20 INFO main - heartbeatThreadPoolQueueCapacity=50000
-2023-08-17 16:03:20 INFO main - endTransactionPoolQueueCapacity=100000
-2023-08-17 16:03:20 INFO main - filterServerNums=0
-2023-08-17 16:03:20 INFO main - longPollingEnable=true
-2023-08-17 16:03:20 INFO main - shortPollingTimeMills=1000
-2023-08-17 16:03:20 INFO main - notifyConsumerIdsChangedEnable=true
-2023-08-17 16:03:20 INFO main - highSpeedMode=false
-2023-08-17 16:03:20 INFO main - commercialEnable=true
-2023-08-17 16:03:20 INFO main - commercialTimerCount=1
-2023-08-17 16:03:20 INFO main - commercialTransCount=1
-2023-08-17 16:03:21 INFO main - commercialBigCount=1
-2023-08-17 16:03:21 INFO main - commercialBaseCount=1
-2023-08-17 16:03:21 INFO main - transferMsgByHeap=true
-2023-08-17 16:03:21 INFO main - maxDelayTime=40
-2023-08-17 16:03:21 INFO main - regionId=DefaultRegion
-2023-08-17 16:03:21 INFO main - registerBrokerTimeoutMills=6000
-2023-08-17 16:03:21 INFO main - slaveReadEnable=false
-2023-08-17 16:03:21 INFO main - disableConsumeIfConsumerReadSlowly=false
-2023-08-17 16:03:21 INFO main - consumerFallbehindThreshold=17179869184
-2023-08-17 16:03:21 INFO main - brokerFastFailureEnable=true
-2023-08-17 16:03:21 INFO main - waitTimeMillsInSendQueue=200
-2023-08-17 16:03:21 INFO main - waitTimeMillsInPullQueue=5000
-2023-08-17 16:03:21 INFO main - waitTimeMillsInHeartbeatQueue=31000
-2023-08-17 16:03:21 INFO main - waitTimeMillsInTransactionQueue=3000
-2023-08-17 16:03:21 INFO main - startAcceptSendRequestTimeStamp=0
-2023-08-17 16:03:21 INFO main - traceOn=true
-2023-08-17 16:03:21 INFO main - enableCalcFilterBitMap=false
-2023-08-17 16:03:21 INFO main - expectConsumerNumUseFilter=32
-2023-08-17 16:03:21 INFO main - maxErrorRateOfBloomFilter=20
-2023-08-17 16:03:21 INFO main - filterDataCleanTimeSpan=86400000
-2023-08-17 16:03:21 INFO main - filterSupportRetry=false
-2023-08-17 16:03:21 INFO main - enablePropertyFilter=false
-2023-08-17 16:03:21 INFO main - compressedRegister=false
-2023-08-17 16:03:21 INFO main - forceRegister=true
-2023-08-17 16:03:21 INFO main - registerNameServerPeriod=30000
-2023-08-17 16:03:21 INFO main - transactionTimeOut=6000
-2023-08-17 16:03:21 INFO main - transactionCheckMax=15
-2023-08-17 16:03:21 INFO main - transactionCheckInterval=60000
-2023-08-17 16:03:21 INFO main - aclEnable=false
-2023-08-17 16:03:21 INFO main - listenPort=10911
-2023-08-17 16:03:21 INFO main - serverWorkerThreads=8
-2023-08-17 16:03:21 INFO main - serverCallbackExecutorThreads=0
-2023-08-17 16:03:21 INFO main - serverSelectorThreads=3
-2023-08-17 16:03:21 INFO main - serverOnewaySemaphoreValue=256
-2023-08-17 16:03:21 INFO main - serverAsyncSemaphoreValue=64
-2023-08-17 16:03:21 INFO main - serverChannelMaxIdleTimeSeconds=120
-2023-08-17 16:03:21 INFO main - serverSocketSndBufSize=131072
-2023-08-17 16:03:21 INFO main - serverSocketRcvBufSize=131072
-2023-08-17 16:03:21 INFO main - serverPooledByteBufAllocatorEnable=true
-2023-08-17 16:03:21 INFO main - useEpollNativeSelector=false
-2023-08-17 16:03:21 INFO main - clientWorkerThreads=4
-2023-08-17 16:03:21 INFO main - clientCallbackExecutorThreads=2
-2023-08-17 16:03:21 INFO main - clientOnewaySemaphoreValue=65535
-2023-08-17 16:03:21 INFO main - clientAsyncSemaphoreValue=65535
-2023-08-17 16:03:21 INFO main - connectTimeoutMillis=3000
-2023-08-17 16:03:21 INFO main - channelNotActiveInterval=60000
-2023-08-17 16:03:21 INFO main - clientChannelMaxIdleTimeSeconds=120
-2023-08-17 16:03:21 INFO main - clientSocketSndBufSize=131072
-2023-08-17 16:03:21 INFO main - clientSocketRcvBufSize=131072
-2023-08-17 16:03:21 INFO main - clientPooledByteBufAllocatorEnable=false
-2023-08-17 16:03:21 INFO main - clientCloseSocketIfTimeout=false
-2023-08-17 16:03:21 INFO main - useTLS=false
-2023-08-17 16:03:21 INFO main - storePathRootDir=/root/store
-2023-08-17 16:03:21 INFO main - storePathCommitLog=/root/store/commitlog
-2023-08-17 16:03:21 INFO main - mapedFileSizeCommitLog=1073741824
-2023-08-17 16:03:21 INFO main - mapedFileSizeConsumeQueue=6000000
-2023-08-17 16:03:21 INFO main - enableConsumeQueueExt=false
-2023-08-17 16:03:21 INFO main - mappedFileSizeConsumeQueueExt=50331648
-2023-08-17 16:03:21 INFO main - bitMapLengthConsumeQueueExt=64
-2023-08-17 16:03:21 INFO main - flushIntervalCommitLog=500
-2023-08-17 16:03:21 INFO main - commitIntervalCommitLog=200
-2023-08-17 16:03:21 INFO main - useReentrantLockWhenPutMessage=false
-2023-08-17 16:03:21 INFO main - flushCommitLogTimed=false
-2023-08-17 16:03:21 INFO main - flushIntervalConsumeQueue=1000
-2023-08-17 16:03:21 INFO main - cleanResourceInterval=10000
-2023-08-17 16:03:21 INFO main - deleteCommitLogFilesInterval=100
-2023-08-17 16:03:21 INFO main - deleteConsumeQueueFilesInterval=100
-2023-08-17 16:03:21 INFO main - destroyMapedFileIntervalForcibly=120000
-2023-08-17 16:03:21 INFO main - redeleteHangedFileInterval=120000
-2023-08-17 16:03:21 INFO main - deleteWhen=04
-2023-08-17 16:03:21 INFO main - diskMaxUsedSpaceRatio=75
-2023-08-17 16:03:21 INFO main - fileReservedTime=48
-2023-08-17 16:03:21 INFO main - putMsgIndexHightWater=600000
-2023-08-17 16:03:21 INFO main - maxMessageSize=4194304
-2023-08-17 16:03:21 INFO main - checkCRCOnRecover=true
-2023-08-17 16:03:21 INFO main - flushCommitLogLeastPages=4
-2023-08-17 16:03:21 INFO main - commitCommitLogLeastPages=4
-2023-08-17 16:03:21 INFO main - flushLeastPagesWhenWarmMapedFile=4096
-2023-08-17 16:03:21 INFO main - flushConsumeQueueLeastPages=2
-2023-08-17 16:03:21 INFO main - flushCommitLogThoroughInterval=10000
-2023-08-17 16:03:21 INFO main - commitCommitLogThoroughInterval=200
-2023-08-17 16:03:21 INFO main - flushConsumeQueueThoroughInterval=60000
-2023-08-17 16:03:21 INFO main - maxTransferBytesOnMessageInMemory=262144
-2023-08-17 16:03:21 INFO main - maxTransferCountOnMessageInMemory=32
-2023-08-17 16:03:21 INFO main - maxTransferBytesOnMessageInDisk=65536
-2023-08-17 16:03:21 INFO main - maxTransferCountOnMessageInDisk=8
-2023-08-17 16:03:21 INFO main - accessMessageInMemoryMaxRatio=40
-2023-08-17 16:03:21 INFO main - messageIndexEnable=true
-2023-08-17 16:03:21 INFO main - maxHashSlotNum=5000000
-2023-08-17 16:03:21 INFO main - maxIndexNum=20000000
-2023-08-17 16:03:21 INFO main - maxMsgsNumBatch=64
-2023-08-17 16:03:21 INFO main - messageIndexSafe=false
-2023-08-17 16:03:21 INFO main - haListenPort=10912
-2023-08-17 16:03:21 INFO main - haSendHeartbeatInterval=5000
-2023-08-17 16:03:21 INFO main - haHousekeepingInterval=20000
-2023-08-17 16:03:21 INFO main - haTransferBatchSize=32768
-2023-08-17 16:03:21 INFO main - haMasterAddress=
-2023-08-17 16:03:21 INFO main - haSlaveFallbehindMax=268435456
-2023-08-17 16:03:21 INFO main - brokerRole=ASYNC_MASTER
-2023-08-17 16:03:21 INFO main - flushDiskType=ASYNC_FLUSH
-2023-08-17 16:03:21 INFO main - syncFlushTimeout=5000
-2023-08-17 16:03:21 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
-2023-08-17 16:03:21 INFO main - flushDelayOffsetInterval=10000
-2023-08-17 16:03:21 INFO main - cleanFileForciblyEnable=true
-2023-08-17 16:03:21 INFO main - warmMapedFileEnable=false
-2023-08-17 16:03:21 INFO main - offsetCheckInSlave=false
-2023-08-17 16:03:21 INFO main - debugLockEnable=false
-2023-08-17 16:03:21 INFO main - duplicationEnable=false
-2023-08-17 16:03:21 INFO main - diskFallRecorded=true
-2023-08-17 16:03:21 INFO main - osPageCacheBusyTimeOutMills=1000
-2023-08-17 16:03:21 INFO main - defaultQueryMaxNum=32
-2023-08-17 16:03:21 INFO main - transientStorePoolEnable=false
-2023-08-17 16:03:21 INFO main - transientStorePoolSize=5
-2023-08-17 16:03:21 INFO main - fastFailIfNoBufferInStorePool=false
-2023-08-17 16:03:22 INFO main - Set user specified name server address: rmqnamesrv:9876
-2023-08-17 16:03:22 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
-2023-08-17 16:03:22 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
-2023-08-17 16:03:22 INFO main - The broker dose not enable acl
-2023-08-17 16:03:22 INFO FileWatchService - FileWatchService service started
-2023-08-17 16:03:22 INFO PullRequestHoldService - PullRequestHoldService service started
-2023-08-17 16:03:23 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:03:23 INFO main - Start transaction service!
-2023-08-17 16:03:23 INFO main - The broker[broker-a, 192.168.60.34:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
-2023-08-17 16:03:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:03:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:03:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:04:03 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:04:23 INFO TransactionalMessageCheckService - create new topic TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
-2023-08-17 16:04:23 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:04:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:04:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:04:33 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:05:03 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:05:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:05:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:05:33 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:06:03 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:06:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:06:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:06:33 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:07:03 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:07:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:07:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:07:33 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:08:03 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:08:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:08:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:08:33 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:09:03 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:09:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:09:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:09:33 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:10:03 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:10:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:10:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:10:33 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:11:03 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:11:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:11:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:11:33 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:12:03 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:12:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:12:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:12:33 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:13:03 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:13:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:13:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:13:33 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:14:03 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:14:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:14:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:14:33 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:15:03 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:15:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:15:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:15:33 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:16:03 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:16:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:16:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:16:33 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:17:03 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:17:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:17:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:17:33 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:18:03 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:18:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:18:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:18:33 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:19:03 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:19:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:19:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:19:33 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:20:03 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:20:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:20:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:20:33 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:21:03 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:21:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:21:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:21:33 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:22:03 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
-2023-08-17 16:22:32 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
-2023-08-17 16:22:32 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
-2023-08-17 16:22:33 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:32:51 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2023-08-18 19:32:51 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-08-18 19:32:51 INFO main - brokerIP1=192.168.60.34
+2023-08-18 19:32:51 INFO main - brokerIP2=172.19.0.3
+2023-08-18 19:32:51 INFO main - brokerName=broker-a
+2023-08-18 19:32:51 INFO main - brokerClusterName=DefaultCluster
+2023-08-18 19:32:51 INFO main - brokerId=0
+2023-08-18 19:32:51 INFO main - brokerPermission=6
+2023-08-18 19:32:51 INFO main - defaultTopicQueueNums=8
+2023-08-18 19:32:51 INFO main - autoCreateTopicEnable=true
+2023-08-18 19:32:51 INFO main - clusterTopicEnable=true
+2023-08-18 19:32:51 INFO main - brokerTopicEnable=true
+2023-08-18 19:32:51 INFO main - autoCreateSubscriptionGroup=true
+2023-08-18 19:32:51 INFO main - messageStorePlugIn=
+2023-08-18 19:32:51 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-08-18 19:32:51 INFO main - traceTopicEnable=false
+2023-08-18 19:32:51 INFO main - sendMessageThreadPoolNums=1
+2023-08-18 19:32:51 INFO main - pullMessageThreadPoolNums=20
+2023-08-18 19:32:51 INFO main - queryMessageThreadPoolNums=10
+2023-08-18 19:32:51 INFO main - adminBrokerThreadPoolNums=16
+2023-08-18 19:32:51 INFO main - clientManageThreadPoolNums=32
+2023-08-18 19:32:51 INFO main - consumerManageThreadPoolNums=32
+2023-08-18 19:32:51 INFO main - heartbeatThreadPoolNums=2
+2023-08-18 19:32:51 INFO main - endTransactionThreadPoolNums=12
+2023-08-18 19:32:51 INFO main - flushConsumerOffsetInterval=5000
+2023-08-18 19:32:51 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-08-18 19:32:51 INFO main - rejectTransactionMessage=false
+2023-08-18 19:32:51 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-08-18 19:32:51 INFO main - sendThreadPoolQueueCapacity=10000
+2023-08-18 19:32:51 INFO main - pullThreadPoolQueueCapacity=100000
+2023-08-18 19:32:51 INFO main - queryThreadPoolQueueCapacity=20000
+2023-08-18 19:32:51 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-08-18 19:32:51 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-08-18 19:32:51 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-08-18 19:32:51 INFO main - endTransactionPoolQueueCapacity=100000
+2023-08-18 19:32:51 INFO main - filterServerNums=0
+2023-08-18 19:32:51 INFO main - longPollingEnable=true
+2023-08-18 19:32:51 INFO main - shortPollingTimeMills=1000
+2023-08-18 19:32:51 INFO main - notifyConsumerIdsChangedEnable=true
+2023-08-18 19:32:51 INFO main - highSpeedMode=false
+2023-08-18 19:32:51 INFO main - commercialEnable=true
+2023-08-18 19:32:51 INFO main - commercialTimerCount=1
+2023-08-18 19:32:51 INFO main - commercialTransCount=1
+2023-08-18 19:32:51 INFO main - commercialBigCount=1
+2023-08-18 19:32:51 INFO main - commercialBaseCount=1
+2023-08-18 19:32:51 INFO main - transferMsgByHeap=true
+2023-08-18 19:32:51 INFO main - maxDelayTime=40
+2023-08-18 19:32:51 INFO main - regionId=DefaultRegion
+2023-08-18 19:32:51 INFO main - registerBrokerTimeoutMills=6000
+2023-08-18 19:32:51 INFO main - slaveReadEnable=false
+2023-08-18 19:32:51 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-08-18 19:32:51 INFO main - consumerFallbehindThreshold=17179869184
+2023-08-18 19:32:51 INFO main - brokerFastFailureEnable=true
+2023-08-18 19:32:51 INFO main - waitTimeMillsInSendQueue=200
+2023-08-18 19:32:51 INFO main - waitTimeMillsInPullQueue=5000
+2023-08-18 19:32:51 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-08-18 19:32:51 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-08-18 19:32:51 INFO main - startAcceptSendRequestTimeStamp=0
+2023-08-18 19:32:51 INFO main - traceOn=true
+2023-08-18 19:32:51 INFO main - enableCalcFilterBitMap=false
+2023-08-18 19:32:51 INFO main - expectConsumerNumUseFilter=32
+2023-08-18 19:32:51 INFO main - maxErrorRateOfBloomFilter=20
+2023-08-18 19:32:51 INFO main - filterDataCleanTimeSpan=86400000
+2023-08-18 19:32:51 INFO main - filterSupportRetry=false
+2023-08-18 19:32:51 INFO main - enablePropertyFilter=false
+2023-08-18 19:32:51 INFO main - compressedRegister=false
+2023-08-18 19:32:51 INFO main - forceRegister=true
+2023-08-18 19:32:51 INFO main - registerNameServerPeriod=30000
+2023-08-18 19:32:51 INFO main - transactionTimeOut=6000
+2023-08-18 19:32:51 INFO main - transactionCheckMax=15
+2023-08-18 19:32:51 INFO main - transactionCheckInterval=60000
+2023-08-18 19:32:51 INFO main - aclEnable=false
+2023-08-18 19:32:51 INFO main - listenPort=10911
+2023-08-18 19:32:51 INFO main - serverWorkerThreads=8
+2023-08-18 19:32:51 INFO main - serverCallbackExecutorThreads=0
+2023-08-18 19:32:51 INFO main - serverSelectorThreads=3
+2023-08-18 19:32:51 INFO main - serverOnewaySemaphoreValue=256
+2023-08-18 19:32:51 INFO main - serverAsyncSemaphoreValue=64
+2023-08-18 19:32:51 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-08-18 19:32:51 INFO main - serverSocketSndBufSize=131072
+2023-08-18 19:32:51 INFO main - serverSocketRcvBufSize=131072
+2023-08-18 19:32:51 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-08-18 19:32:51 INFO main - useEpollNativeSelector=false
+2023-08-18 19:32:51 INFO main - clientWorkerThreads=4
+2023-08-18 19:32:51 INFO main - clientCallbackExecutorThreads=2
+2023-08-18 19:32:51 INFO main - clientOnewaySemaphoreValue=65535
+2023-08-18 19:32:51 INFO main - clientAsyncSemaphoreValue=65535
+2023-08-18 19:32:51 INFO main - connectTimeoutMillis=3000
+2023-08-18 19:32:51 INFO main - channelNotActiveInterval=60000
+2023-08-18 19:32:51 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-08-18 19:32:51 INFO main - clientSocketSndBufSize=131072
+2023-08-18 19:32:51 INFO main - clientSocketRcvBufSize=131072
+2023-08-18 19:32:51 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-08-18 19:32:51 INFO main - clientCloseSocketIfTimeout=false
+2023-08-18 19:32:51 INFO main - useTLS=false
+2023-08-18 19:32:51 INFO main - storePathRootDir=/root/store
+2023-08-18 19:32:51 INFO main - storePathCommitLog=/root/store/commitlog
+2023-08-18 19:32:51 INFO main - mapedFileSizeCommitLog=1073741824
+2023-08-18 19:32:51 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-08-18 19:32:51 INFO main - enableConsumeQueueExt=false
+2023-08-18 19:32:51 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-08-18 19:32:51 INFO main - bitMapLengthConsumeQueueExt=64
+2023-08-18 19:32:51 INFO main - flushIntervalCommitLog=500
+2023-08-18 19:32:51 INFO main - commitIntervalCommitLog=200
+2023-08-18 19:32:51 INFO main - useReentrantLockWhenPutMessage=false
+2023-08-18 19:32:51 INFO main - flushCommitLogTimed=false
+2023-08-18 19:32:51 INFO main - flushIntervalConsumeQueue=1000
+2023-08-18 19:32:51 INFO main - cleanResourceInterval=10000
+2023-08-18 19:32:51 INFO main - deleteCommitLogFilesInterval=100
+2023-08-18 19:32:51 INFO main - deleteConsumeQueueFilesInterval=100
+2023-08-18 19:32:51 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-08-18 19:32:51 INFO main - redeleteHangedFileInterval=120000
+2023-08-18 19:32:51 INFO main - deleteWhen=04
+2023-08-18 19:32:51 INFO main - diskMaxUsedSpaceRatio=75
+2023-08-18 19:32:51 INFO main - fileReservedTime=48
+2023-08-18 19:32:51 INFO main - putMsgIndexHightWater=600000
+2023-08-18 19:32:51 INFO main - maxMessageSize=4194304
+2023-08-18 19:32:51 INFO main - checkCRCOnRecover=true
+2023-08-18 19:32:51 INFO main - flushCommitLogLeastPages=4
+2023-08-18 19:32:51 INFO main - commitCommitLogLeastPages=4
+2023-08-18 19:32:51 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-08-18 19:32:51 INFO main - flushConsumeQueueLeastPages=2
+2023-08-18 19:32:51 INFO main - flushCommitLogThoroughInterval=10000
+2023-08-18 19:32:51 INFO main - commitCommitLogThoroughInterval=200
+2023-08-18 19:32:51 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-08-18 19:32:51 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-08-18 19:32:51 INFO main - maxTransferCountOnMessageInMemory=32
+2023-08-18 19:32:51 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-08-18 19:32:51 INFO main - maxTransferCountOnMessageInDisk=8
+2023-08-18 19:32:51 INFO main - accessMessageInMemoryMaxRatio=40
+2023-08-18 19:32:51 INFO main - messageIndexEnable=true
+2023-08-18 19:32:51 INFO main - maxHashSlotNum=5000000
+2023-08-18 19:32:51 INFO main - maxIndexNum=20000000
+2023-08-18 19:32:51 INFO main - maxMsgsNumBatch=64
+2023-08-18 19:32:51 INFO main - messageIndexSafe=false
+2023-08-18 19:32:51 INFO main - haListenPort=10912
+2023-08-18 19:32:51 INFO main - haSendHeartbeatInterval=5000
+2023-08-18 19:32:51 INFO main - haHousekeepingInterval=20000
+2023-08-18 19:32:51 INFO main - haTransferBatchSize=32768
+2023-08-18 19:32:51 INFO main - haMasterAddress=
+2023-08-18 19:32:51 INFO main - haSlaveFallbehindMax=268435456
+2023-08-18 19:32:51 INFO main - brokerRole=ASYNC_MASTER
+2023-08-18 19:32:51 INFO main - flushDiskType=ASYNC_FLUSH
+2023-08-18 19:32:51 INFO main - syncFlushTimeout=5000
+2023-08-18 19:32:51 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-08-18 19:32:51 INFO main - flushDelayOffsetInterval=10000
+2023-08-18 19:32:51 INFO main - cleanFileForciblyEnable=true
+2023-08-18 19:32:51 INFO main - warmMapedFileEnable=false
+2023-08-18 19:32:51 INFO main - offsetCheckInSlave=false
+2023-08-18 19:32:51 INFO main - debugLockEnable=false
+2023-08-18 19:32:51 INFO main - duplicationEnable=false
+2023-08-18 19:32:51 INFO main - diskFallRecorded=true
+2023-08-18 19:32:51 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-08-18 19:32:51 INFO main - defaultQueryMaxNum=32
+2023-08-18 19:32:51 INFO main - transientStorePoolEnable=false
+2023-08-18 19:32:51 INFO main - transientStorePoolSize=5
+2023-08-18 19:32:51 INFO main - fastFailIfNoBufferInStorePool=false
+2023-08-18 19:32:52 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-08-18 19:32:52 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-08-18 19:32:52 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-08-18 19:32:52 INFO main - The broker dose not enable acl
+2023-08-18 19:32:53 INFO FileWatchService - FileWatchService service started
+2023-08-18 19:32:53 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-08-18 19:32:53 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:32:53 INFO main - Start transaction service!
+2023-08-18 19:32:53 INFO main - The broker[broker-a, 192.168.60.34:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-08-18 19:33:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:33:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:33:03 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:33:33 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:33:53 INFO TransactionalMessageCheckService - create new topic TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-08-18 19:33:53 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:34:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:34:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:34:03 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:34:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:35:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:35:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:35:03 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:35:33 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:36:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:36:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:36:03 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:36:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:37:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:37:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:37:03 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:37:33 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:38:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:38:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:38:03 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:38:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:39:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:39:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:39:03 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:39:33 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:40:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:40:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:40:03 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:40:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:41:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:41:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:41:03 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:41:33 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:42:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:42:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:42:03 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:42:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:43:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:43:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:43:03 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:43:33 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:44:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:44:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:44:03 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:44:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:45:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:45:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:45:03 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:45:33 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:46:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:46:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:46:03 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:46:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:47:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:47:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:47:03 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:47:33 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:48:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:48:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:48:03 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:48:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:49:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:49:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:49:03 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:49:33 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:50:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:50:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:50:03 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:50:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:51:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:51:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:51:03 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:51:33 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:52:02 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:52:02 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:52:03 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:52:33 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:53:03 INFO main - rocketmqHome=/opt/rocketmq-4.4.0
+2023-08-18 19:53:03 INFO main - namesrvAddr=rmqnamesrv:9876
+2023-08-18 19:53:03 INFO main - brokerIP1=192.168.60.120
+2023-08-18 19:53:03 INFO main - brokerIP2=172.21.0.3
+2023-08-18 19:53:03 INFO main - brokerName=broker-a
+2023-08-18 19:53:03 INFO main - brokerClusterName=DefaultCluster
+2023-08-18 19:53:03 INFO main - brokerId=0
+2023-08-18 19:53:03 INFO main - brokerPermission=6
+2023-08-18 19:53:03 INFO main - defaultTopicQueueNums=8
+2023-08-18 19:53:03 INFO main - autoCreateTopicEnable=true
+2023-08-18 19:53:03 INFO main - clusterTopicEnable=true
+2023-08-18 19:53:03 INFO main - brokerTopicEnable=true
+2023-08-18 19:53:03 INFO main - autoCreateSubscriptionGroup=true
+2023-08-18 19:53:03 INFO main - messageStorePlugIn=
+2023-08-18 19:53:03 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2023-08-18 19:53:03 INFO main - traceTopicEnable=false
+2023-08-18 19:53:03 INFO main - sendMessageThreadPoolNums=1
+2023-08-18 19:53:03 INFO main - pullMessageThreadPoolNums=20
+2023-08-18 19:53:03 INFO main - queryMessageThreadPoolNums=10
+2023-08-18 19:53:03 INFO main - adminBrokerThreadPoolNums=16
+2023-08-18 19:53:03 INFO main - clientManageThreadPoolNums=32
+2023-08-18 19:53:03 INFO main - consumerManageThreadPoolNums=32
+2023-08-18 19:53:03 INFO main - heartbeatThreadPoolNums=2
+2023-08-18 19:53:03 INFO main - endTransactionThreadPoolNums=12
+2023-08-18 19:53:03 INFO main - flushConsumerOffsetInterval=5000
+2023-08-18 19:53:03 INFO main - flushConsumerOffsetHistoryInterval=60000
+2023-08-18 19:53:03 INFO main - rejectTransactionMessage=false
+2023-08-18 19:53:03 INFO main - fetchNamesrvAddrByAddressServer=false
+2023-08-18 19:53:03 INFO main - sendThreadPoolQueueCapacity=10000
+2023-08-18 19:53:03 INFO main - pullThreadPoolQueueCapacity=100000
+2023-08-18 19:53:03 INFO main - queryThreadPoolQueueCapacity=20000
+2023-08-18 19:53:03 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2023-08-18 19:53:03 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2023-08-18 19:53:03 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2023-08-18 19:53:03 INFO main - endTransactionPoolQueueCapacity=100000
+2023-08-18 19:53:03 INFO main - filterServerNums=0
+2023-08-18 19:53:03 INFO main - longPollingEnable=true
+2023-08-18 19:53:03 INFO main - shortPollingTimeMills=1000
+2023-08-18 19:53:03 INFO main - notifyConsumerIdsChangedEnable=true
+2023-08-18 19:53:03 INFO main - highSpeedMode=false
+2023-08-18 19:53:03 INFO main - commercialEnable=true
+2023-08-18 19:53:03 INFO main - commercialTimerCount=1
+2023-08-18 19:53:03 INFO main - commercialTransCount=1
+2023-08-18 19:53:03 INFO main - commercialBigCount=1
+2023-08-18 19:53:03 INFO main - commercialBaseCount=1
+2023-08-18 19:53:03 INFO main - transferMsgByHeap=true
+2023-08-18 19:53:03 INFO main - maxDelayTime=40
+2023-08-18 19:53:03 INFO main - regionId=DefaultRegion
+2023-08-18 19:53:03 INFO main - registerBrokerTimeoutMills=6000
+2023-08-18 19:53:03 INFO main - slaveReadEnable=false
+2023-08-18 19:53:03 INFO main - disableConsumeIfConsumerReadSlowly=false
+2023-08-18 19:53:03 INFO main - consumerFallbehindThreshold=17179869184
+2023-08-18 19:53:03 INFO main - brokerFastFailureEnable=true
+2023-08-18 19:53:03 INFO main - waitTimeMillsInSendQueue=200
+2023-08-18 19:53:03 INFO main - waitTimeMillsInPullQueue=5000
+2023-08-18 19:53:03 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2023-08-18 19:53:03 INFO main - waitTimeMillsInTransactionQueue=3000
+2023-08-18 19:53:03 INFO main - startAcceptSendRequestTimeStamp=0
+2023-08-18 19:53:03 INFO main - traceOn=true
+2023-08-18 19:53:03 INFO main - enableCalcFilterBitMap=false
+2023-08-18 19:53:03 INFO main - expectConsumerNumUseFilter=32
+2023-08-18 19:53:03 INFO main - maxErrorRateOfBloomFilter=20
+2023-08-18 19:53:03 INFO main - filterDataCleanTimeSpan=86400000
+2023-08-18 19:53:03 INFO main - filterSupportRetry=false
+2023-08-18 19:53:03 INFO main - enablePropertyFilter=false
+2023-08-18 19:53:03 INFO main - compressedRegister=false
+2023-08-18 19:53:03 INFO main - forceRegister=true
+2023-08-18 19:53:03 INFO main - registerNameServerPeriod=30000
+2023-08-18 19:53:03 INFO main - transactionTimeOut=6000
+2023-08-18 19:53:03 INFO main - transactionCheckMax=15
+2023-08-18 19:53:03 INFO main - transactionCheckInterval=60000
+2023-08-18 19:53:03 INFO main - aclEnable=false
+2023-08-18 19:53:03 INFO main - listenPort=10911
+2023-08-18 19:53:03 INFO main - serverWorkerThreads=8
+2023-08-18 19:53:03 INFO main - serverCallbackExecutorThreads=0
+2023-08-18 19:53:03 INFO main - serverSelectorThreads=3
+2023-08-18 19:53:03 INFO main - serverOnewaySemaphoreValue=256
+2023-08-18 19:53:03 INFO main - serverAsyncSemaphoreValue=64
+2023-08-18 19:53:03 INFO main - serverChannelMaxIdleTimeSeconds=120
+2023-08-18 19:53:03 INFO main - serverSocketSndBufSize=131072
+2023-08-18 19:53:03 INFO main - serverSocketRcvBufSize=131072
+2023-08-18 19:53:03 INFO main - serverPooledByteBufAllocatorEnable=true
+2023-08-18 19:53:03 INFO main - useEpollNativeSelector=false
+2023-08-18 19:53:03 INFO main - clientWorkerThreads=4
+2023-08-18 19:53:03 INFO main - clientCallbackExecutorThreads=2
+2023-08-18 19:53:03 INFO main - clientOnewaySemaphoreValue=65535
+2023-08-18 19:53:03 INFO main - clientAsyncSemaphoreValue=65535
+2023-08-18 19:53:03 INFO main - connectTimeoutMillis=3000
+2023-08-18 19:53:03 INFO main - channelNotActiveInterval=60000
+2023-08-18 19:53:03 INFO main - clientChannelMaxIdleTimeSeconds=120
+2023-08-18 19:53:03 INFO main - clientSocketSndBufSize=131072
+2023-08-18 19:53:03 INFO main - clientSocketRcvBufSize=131072
+2023-08-18 19:53:03 INFO main - clientPooledByteBufAllocatorEnable=false
+2023-08-18 19:53:03 INFO main - clientCloseSocketIfTimeout=false
+2023-08-18 19:53:03 INFO main - useTLS=false
+2023-08-18 19:53:03 INFO main - storePathRootDir=/root/store
+2023-08-18 19:53:03 INFO main - storePathCommitLog=/root/store/commitlog
+2023-08-18 19:53:03 INFO main - mapedFileSizeCommitLog=1073741824
+2023-08-18 19:53:03 INFO main - mapedFileSizeConsumeQueue=6000000
+2023-08-18 19:53:03 INFO main - enableConsumeQueueExt=false
+2023-08-18 19:53:03 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2023-08-18 19:53:03 INFO main - bitMapLengthConsumeQueueExt=64
+2023-08-18 19:53:03 INFO main - flushIntervalCommitLog=500
+2023-08-18 19:53:03 INFO main - commitIntervalCommitLog=200
+2023-08-18 19:53:03 INFO main - useReentrantLockWhenPutMessage=false
+2023-08-18 19:53:03 INFO main - flushCommitLogTimed=false
+2023-08-18 19:53:03 INFO main - flushIntervalConsumeQueue=1000
+2023-08-18 19:53:03 INFO main - cleanResourceInterval=10000
+2023-08-18 19:53:03 INFO main - deleteCommitLogFilesInterval=100
+2023-08-18 19:53:03 INFO main - deleteConsumeQueueFilesInterval=100
+2023-08-18 19:53:03 INFO main - destroyMapedFileIntervalForcibly=120000
+2023-08-18 19:53:03 INFO main - redeleteHangedFileInterval=120000
+2023-08-18 19:53:03 INFO main - deleteWhen=04
+2023-08-18 19:53:03 INFO main - diskMaxUsedSpaceRatio=75
+2023-08-18 19:53:03 INFO main - fileReservedTime=48
+2023-08-18 19:53:03 INFO main - putMsgIndexHightWater=600000
+2023-08-18 19:53:03 INFO main - maxMessageSize=4194304
+2023-08-18 19:53:03 INFO main - checkCRCOnRecover=true
+2023-08-18 19:53:03 INFO main - flushCommitLogLeastPages=4
+2023-08-18 19:53:03 INFO main - commitCommitLogLeastPages=4
+2023-08-18 19:53:03 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2023-08-18 19:53:03 INFO main - flushConsumeQueueLeastPages=2
+2023-08-18 19:53:03 INFO main - flushCommitLogThoroughInterval=10000
+2023-08-18 19:53:03 INFO main - commitCommitLogThoroughInterval=200
+2023-08-18 19:53:03 INFO main - flushConsumeQueueThoroughInterval=60000
+2023-08-18 19:53:03 INFO main - maxTransferBytesOnMessageInMemory=262144
+2023-08-18 19:53:03 INFO main - maxTransferCountOnMessageInMemory=32
+2023-08-18 19:53:03 INFO main - maxTransferBytesOnMessageInDisk=65536
+2023-08-18 19:53:03 INFO main - maxTransferCountOnMessageInDisk=8
+2023-08-18 19:53:03 INFO main - accessMessageInMemoryMaxRatio=40
+2023-08-18 19:53:03 INFO main - messageIndexEnable=true
+2023-08-18 19:53:03 INFO main - maxHashSlotNum=5000000
+2023-08-18 19:53:03 INFO main - maxIndexNum=20000000
+2023-08-18 19:53:03 INFO main - maxMsgsNumBatch=64
+2023-08-18 19:53:03 INFO main - messageIndexSafe=false
+2023-08-18 19:53:03 INFO main - haListenPort=10912
+2023-08-18 19:53:03 INFO main - haSendHeartbeatInterval=5000
+2023-08-18 19:53:03 INFO main - haHousekeepingInterval=20000
+2023-08-18 19:53:03 INFO main - haTransferBatchSize=32768
+2023-08-18 19:53:03 INFO main - haMasterAddress=
+2023-08-18 19:53:03 INFO main - haSlaveFallbehindMax=268435456
+2023-08-18 19:53:03 INFO main - brokerRole=ASYNC_MASTER
+2023-08-18 19:53:03 INFO main - flushDiskType=ASYNC_FLUSH
+2023-08-18 19:53:03 INFO main - syncFlushTimeout=5000
+2023-08-18 19:53:03 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2023-08-18 19:53:03 INFO main - flushDelayOffsetInterval=10000
+2023-08-18 19:53:03 INFO main - cleanFileForciblyEnable=true
+2023-08-18 19:53:03 INFO main - warmMapedFileEnable=false
+2023-08-18 19:53:03 INFO main - offsetCheckInSlave=false
+2023-08-18 19:53:03 INFO main - debugLockEnable=false
+2023-08-18 19:53:03 INFO main - duplicationEnable=false
+2023-08-18 19:53:03 INFO main - diskFallRecorded=true
+2023-08-18 19:53:03 INFO main - osPageCacheBusyTimeOutMills=1000
+2023-08-18 19:53:03 INFO main - defaultQueryMaxNum=32
+2023-08-18 19:53:03 INFO main - transientStorePoolEnable=false
+2023-08-18 19:53:03 INFO main - transientStorePoolSize=5
+2023-08-18 19:53:03 INFO main - fastFailIfNoBufferInStorePool=false
+2023-08-18 19:53:04 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-08-18 19:53:04 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-08-18 19:53:04 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-08-18 19:53:04 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-08-18 19:53:04 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-08-18 19:53:04 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-08-18 19:53:04 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-08-18 19:53:04 INFO main - load /root/store/config/topics.json OK
+2023-08-18 19:53:04 INFO main - load /root/store/config/consumerOffset.json OK
+2023-08-18 19:53:04 INFO main - load /root/store/config/consumerFilter.json OK
+2023-08-18 19:53:04 INFO main - load /root/store/config/delayOffset.json OK
+2023-08-18 19:53:05 INFO main - Set user specified name server address: rmqnamesrv:9876
+2023-08-18 19:53:05 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2023-08-18 19:53:05 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2023-08-18 19:53:05 INFO main - The broker dose not enable acl
+2023-08-18 19:53:06 INFO FileWatchService - FileWatchService service started
+2023-08-18 19:53:06 INFO PullRequestHoldService - PullRequestHoldService service started
+2023-08-18 19:53:06 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:53:06 INFO main - Start transaction service!
+2023-08-18 19:53:06 INFO main - The broker[broker-a, 192.168.60.120:10911] boot success. serializeType=JSON and name server is rmqnamesrv:9876
+2023-08-18 19:53:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:53:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2023-08-18 19:53:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:53:24 WARN SendMessageThread_1 - the topic test not exist, producer: /192.168.60.120:57304
+2023-08-18 19:53:24 INFO SendMessageThread_1 - Create new topic by default topic:[TBW102] config:[TopicConfig [topicName=test, readQueueNums=4, writeQueueNums=4, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]] producer:[192.168.60.120:57304]
+2023-08-18 19:53:24 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:53:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:54:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:54:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 19:54:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:54:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:55:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:55:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 19:55:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:55:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:56:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:56:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 19:56:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:56:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:57:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:57:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 19:57:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:57:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:58:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:58:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 19:58:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:58:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:59:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 19:59:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 19:59:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 19:59:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:00:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:00:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:00:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:00:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:01:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:01:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:01:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:01:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:02:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:02:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:02:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:02:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:03:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:03:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:03:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:03:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:04:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:04:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:04:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:04:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:05:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:05:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:05:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:05:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:06:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:06:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:06:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:06:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:07:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:07:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:07:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:07:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:08:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:08:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:08:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:08:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:09:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:09:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:09:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:09:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:10:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:10:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:10:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:10:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:11:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:11:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:11:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:11:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:12:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:12:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:12:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:12:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:13:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:13:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:13:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:13:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:14:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:14:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:14:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:14:42 INFO HeartbeatThread_1 - auto create a subscription group, SubscriptionGroupConfig [groupName=test, consumeEnable=true, consumeFromMinEnable=true, consumeBroadcastEnable=true, retryQueueNums=1, retryMaxTimes=16, brokerId=0, whichBrokerWhenConsumeSlowly=1, notifyConsumerIdsChangedEnable=true]
+2023-08-18 20:14:42 INFO HeartbeatThread_1 - create new topic TopicConfig [topicName=%RETRY%test, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2023-08-18 20:14:42 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:14:42 INFO HeartbeatThread_1 - new consumer connected, group: test CONSUME_PASSIVELY CLUSTERING channel: ClientChannelInfo [channel=[id: 0x7108f12b, L:/172.21.0.3:10911 - R:/192.168.60.120:45436], clientId=192.168.60.120@141496, language=GO, version=317, lastUpdateTimestamp=1692360882272]
+2023-08-18 20:14:42 INFO HeartbeatThread_1 - subscription changed, add new topic, group: test SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692360882243203188, expressionType=TAG]
+2023-08-18 20:14:42 INFO HeartbeatThread_1 - subscription changed, add new topic, group: test SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692360882243170196, expressionType=TAG]
+2023-08-18 20:14:42 INFO HeartbeatThread_1 - registerConsumer info changed ConsumerData [groupName=test, consumeType=CONSUME_PASSIVELY, messageModel=CLUSTERING, consumeFromWhere=CONSUME_FROM_LAST_OFFSET, unitMode=false, subscriptionDataSet=[SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692360882243203188, expressionType=TAG], SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692360882243170196, expressionType=TAG]]] 192.168.60.120:45436
+2023-08-18 20:14:42 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692360882243170196, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692360882320709122, expressionType=TAG]
+2023-08-18 20:14:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:15:12 WARN NettyEventExecutor - NETTY EVENT: remove not active channel[ClientChannelInfo [channel=[id: 0x7108f12b, L:/172.21.0.3:10911 ! R:/192.168.60.120:45436], clientId=192.168.60.120@141496, language=GO, version=317, lastUpdateTimestamp=1692360883245]] from ConsumerGroupInfo groupChannelTable, consumer group: test
+2023-08-18 20:15:12 INFO NettyEventExecutor - unregister consumer ok, no any connection, and remove consumer group, test
+2023-08-18 20:15:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:15:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:15:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:15:26 WARN PullMessageThread_18 - the consumer's group info not exist, group: test
+2023-08-18 20:15:26 WARN PullMessageThread_19 - the consumer's group info not exist, group: test
+2023-08-18 20:15:26 ERROR NettyServerNIOSelector_3_1 - processRequestWrapper response to /192.168.60.120:45436 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:15:26 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=11, language=GO, version=317, opaque=32, flag(B)=0, remark=, extFields={queueId=2, suspendTimeoutMillis=20000, maxMsgNums=32, sysFlag=2, commitOffset=0, topic=test, queueOffset=0, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:15:26 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=24, language=JAVA, version=293, opaque=32, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:15:26 ERROR NettyServerNIOSelector_3_1 - processRequestWrapper response to /192.168.60.120:45436 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:15:26 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=11, language=GO, version=317, opaque=33, flag(B)=0, remark=, extFields={queueId=3, maxMsgNums=32, suspendTimeoutMillis=20000, sysFlag=2, commitOffset=0, topic=test, queueOffset=0, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:15:26 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=24, language=JAVA, version=293, opaque=33, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:15:31 WARN PullMessageThread_1 - the consumer's group info not exist, group: test
+2023-08-18 20:15:31 ERROR NettyServerNIOSelector_3_1 - processRequestWrapper response to /192.168.60.120:45436 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:15:31 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=11, language=GO, version=317, opaque=35, flag(B)=0, remark=, extFields={queueId=0, suspendTimeoutMillis=20000, maxMsgNums=32, sysFlag=2, commitOffset=0, topic=test, expressionType=TAG, queueOffset=0, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:15:31 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=24, language=JAVA, version=293, opaque=35, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:15:31 WARN PullMessageThread_20 - the consumer's group info not exist, group: test
+2023-08-18 20:15:31 ERROR NettyServerNIOSelector_3_1 - processRequestWrapper response to /192.168.60.120:45436 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:15:31 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=11, language=GO, version=317, opaque=34, flag(B)=0, remark=, extFields={queueId=1, maxMsgNums=32, sysFlag=3, suspendTimeoutMillis=20000, commitOffset=1, topic=test, queueOffset=1, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:15:31 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=24, language=JAVA, version=293, opaque=34, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:15:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:16:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:16:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:16:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:16:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:17:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:17:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:17:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:17:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:18:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:18:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:18:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:18:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:19:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:19:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:19:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:19:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:20:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:20:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:20:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:20:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:21:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:21:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:21:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:21:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:22:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:22:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:22:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:22:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:23:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:23:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:23:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:23:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:24:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:24:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:24:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:24:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:25:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:25:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:25:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:25:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:26:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:26:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:26:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:26:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:27:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:27:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:27:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:27:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:28:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:28:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:28:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:28:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:29:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:29:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:29:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:29:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:30:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:30:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:30:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:30:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:31:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:31:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:31:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:31:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:32:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:32:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:32:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:32:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:33:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:33:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:33:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:33:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:34:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:34:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:34:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:34:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:35:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:35:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:35:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:35:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:36:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:36:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:36:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:36:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:37:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:37:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:37:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:37:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:38:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:38:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:38:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:38:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:39:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:39:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:39:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:39:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:40:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:40:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:40:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:40:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:41:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:41:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:41:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:41:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:42:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:42:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:42:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:42:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:43:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:43:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:43:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:43:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:44:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:44:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:44:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:44:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:45:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:45:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:45:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:45:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:46:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:46:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:46:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:46:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:47:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:47:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:47:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:47:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:48:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:48:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:48:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:48:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:48:51 INFO HeartbeatThread_2 - new consumer connected, group: test CONSUME_PASSIVELY CLUSTERING channel: ClientChannelInfo [channel=[id: 0xfd7316ae, L:/172.21.0.3:10911 - R:/192.168.60.120:33376], clientId=192.168.60.120@146958, language=GO, version=317, lastUpdateTimestamp=1692362931867]
+2023-08-18 20:48:51 INFO HeartbeatThread_2 - subscription changed, add new topic, group: test SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362931857103734, expressionType=TAG]
+2023-08-18 20:48:51 INFO HeartbeatThread_2 - subscription changed, add new topic, group: test SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362931857079738, expressionType=TAG]
+2023-08-18 20:48:51 INFO HeartbeatThread_2 - registerConsumer info changed ConsumerData [groupName=test, consumeType=CONSUME_PASSIVELY, messageModel=CLUSTERING, consumeFromWhere=CONSUME_FROM_LAST_OFFSET, unitMode=false, subscriptionDataSet=[SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362931857103734, expressionType=TAG], SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362931857079738, expressionType=TAG]]] 192.168.60.120:33376
+2023-08-18 20:48:51 INFO HeartbeatThread_1 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362931857079738, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362931884687345, expressionType=TAG]
+2023-08-18 20:48:51 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362931857103734, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362931892517021, expressionType=TAG]
+2023-08-18 20:48:59 INFO HeartbeatThread_2 - new consumer connected, group: test CONSUME_PASSIVELY CLUSTERING channel: ClientChannelInfo [channel=[id: 0xc8009a01, L:/172.21.0.3:10911 - R:/192.168.60.120:51958], clientId=192.168.60.120@147032, language=GO, version=317, lastUpdateTimestamp=1692362939277]
+2023-08-18 20:48:59 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362931892517021, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362939270250032, expressionType=TAG]
+2023-08-18 20:48:59 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362931884687345, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362939270169364, expressionType=TAG]
+2023-08-18 20:48:59 INFO HeartbeatThread_2 - registerConsumer info changed ConsumerData [groupName=test, consumeType=CONSUME_PASSIVELY, messageModel=CLUSTERING, consumeFromWhere=CONSUME_FROM_LAST_OFFSET, unitMode=false, subscriptionDataSet=[SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362939270250032, expressionType=TAG], SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362939270169364, expressionType=TAG]]] 192.168.60.120:51958
+2023-08-18 20:48:59 INFO HeartbeatThread_1 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362939270169364, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362939281214905, expressionType=TAG]
+2023-08-18 20:48:59 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362939281214905, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362939288197210, expressionType=TAG]
+2023-08-18 20:49:11 INFO HeartbeatThread_2 - new consumer connected, group: test CONSUME_PASSIVELY CLUSTERING channel: ClientChannelInfo [channel=[id: 0x1581834c, L:/172.21.0.3:10911 - R:/192.168.60.120:51336], clientId=192.168.60.120@147118, language=GO, version=317, lastUpdateTimestamp=1692362951453]
+2023-08-18 20:49:11 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362939270250032, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362951437777725, expressionType=TAG]
+2023-08-18 20:49:11 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362939288197210, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362951437758499, expressionType=TAG]
+2023-08-18 20:49:11 INFO HeartbeatThread_2 - registerConsumer info changed ConsumerData [groupName=test, consumeType=CONSUME_PASSIVELY, messageModel=CLUSTERING, consumeFromWhere=CONSUME_FROM_LAST_OFFSET, unitMode=false, subscriptionDataSet=[SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362951437777725, expressionType=TAG], SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362951437758499, expressionType=TAG]]] 192.168.60.120:51336
+2023-08-18 20:49:11 INFO HeartbeatThread_1 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362951437758499, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362951461615717, expressionType=TAG]
+2023-08-18 20:49:11 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362951461615717, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362951469473840, expressionType=TAG]
+2023-08-18 20:49:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:49:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 148 bytes
+2023-08-18 20:49:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:49:21 WARN NettyEventExecutor - NETTY EVENT: remove not active channel[ClientChannelInfo [channel=[id: 0xfd7316ae, L:/172.21.0.3:10911 ! R:/192.168.60.120:33376], clientId=192.168.60.120@146958, language=GO, version=317, lastUpdateTimestamp=1692362939282]] from ConsumerGroupInfo groupChannelTable, consumer group: test
+2023-08-18 20:49:21 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362951469473840, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362961875622965, expressionType=TAG]
+2023-08-18 20:49:21 INFO HeartbeatThread_1 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362961875622965, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362961884222806, expressionType=TAG]
+2023-08-18 20:49:21 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362951437777725, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362961890629303, expressionType=TAG]
+2023-08-18 20:49:29 WARN NettyEventExecutor - NETTY EVENT: remove not active channel[ClientChannelInfo [channel=[id: 0xc8009a01, L:/172.21.0.3:10911 ! R:/192.168.60.120:51958], clientId=192.168.60.120@147032, language=GO, version=317, lastUpdateTimestamp=1692362961891]] from ConsumerGroupInfo groupChannelTable, consumer group: test
+2023-08-18 20:49:29 INFO HeartbeatThread_1 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362961884222806, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362969333425727, expressionType=TAG]
+2023-08-18 20:49:29 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362961890629303, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692362969338129027, expressionType=TAG]
+2023-08-18 20:49:36 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /192.168.60.120:33376 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:36 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=GO, version=317, opaque=32, flag(B)=0, remark=, extFields={queueId=0, sysFlag=2, suspendTimeoutMillis=20000, maxMsgNums=32, commitOffset=0, topic=%RETRY%test, expressionType=TAG, queueOffset=0, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:36 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=19, language=JAVA, version=293, opaque=32, flag(B)=1, remark=NO_MESSAGE_IN_QUEUE, extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:36 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /192.168.60.120:33376 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:36 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=GO, version=317, opaque=31, flag(B)=0, remark=, extFields={queueId=0, maxMsgNums=32, sysFlag=2, suspendTimeoutMillis=20000, commitOffset=0, topic=test, queueOffset=0, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:36 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=19, language=JAVA, version=293, opaque=31, flag(B)=1, remark=NO_MESSAGE_IN_QUEUE, extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:41 WARN NettyEventExecutor - NETTY EVENT: remove not active channel[ClientChannelInfo [channel=[id: 0x1581834c, L:/172.21.0.3:10911 ! R:/192.168.60.120:51336], clientId=192.168.60.120@147118, language=GO, version=317, lastUpdateTimestamp=1692362969339]] from ConsumerGroupInfo groupChannelTable, consumer group: test
+2023-08-18 20:49:41 INFO NettyEventExecutor - unregister consumer ok, no any connection, and remove consumer group, test
+2023-08-18 20:49:41 WARN PullMessageThread_13 - the consumer's group info not exist, group: test
+2023-08-18 20:49:41 WARN PullMessageThread_12 - the consumer's group info not exist, group: test
+2023-08-18 20:49:41 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /192.168.60.120:33376 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:41 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=GO, version=317, opaque=33, flag(B)=0, remark=, extFields={queueId=1, suspendTimeoutMillis=20000, maxMsgNums=32, sysFlag=3, commitOffset=1, topic=test, queueOffset=1, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:41 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=293, opaque=33, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:41 ERROR NettyServerNIOSelector_3_1 - processRequestWrapper response to /192.168.60.120:51958 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:41 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=11, language=GO, version=317, opaque=24, flag(B)=0, remark=, extFields={queueId=2, maxMsgNums=32, sysFlag=2, suspendTimeoutMillis=20000, commitOffset=0, topic=test, queueOffset=0, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:41 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=24, language=JAVA, version=293, opaque=24, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:44 WARN PullMessageThread_6 - the consumer's group info not exist, group: test
+2023-08-18 20:49:44 WARN PullMessageThread_7 - the consumer's group info not exist, group: test
+2023-08-18 20:49:44 ERROR NettyServerNIOSelector_3_1 - processRequestWrapper response to /192.168.60.120:51958 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:44 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=11, language=GO, version=317, opaque=31, flag(B)=0, remark=, extFields={queueId=1, suspendTimeoutMillis=20000, maxMsgNums=32, sysFlag=3, commitOffset=1, topic=test, expressionType=TAG, queueOffset=1, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:44 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=24, language=JAVA, version=293, opaque=31, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:44 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /192.168.60.120:51336 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:44 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=GO, version=317, opaque=27, flag(B)=0, remark=, extFields={queueId=1, maxMsgNums=32, sysFlag=3, suspendTimeoutMillis=20000, commitOffset=1, topic=test, expressionType=TAG, queueOffset=1, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:44 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=293, opaque=27, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:46 WARN PullMessageThread_17 - the consumer's group info not exist, group: test
+2023-08-18 20:49:46 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /192.168.60.120:51336 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:46 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=GO, version=317, opaque=18, flag(B)=0, remark=, extFields={queueId=2, sysFlag=2, suspendTimeoutMillis=20000, maxMsgNums=32, commitOffset=0, topic=test, queueOffset=0, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:46 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=293, opaque=18, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:46 WARN PullMessageThread_16 - the consumer's group info not exist, group: test
+2023-08-18 20:49:46 ERROR NettyServerNIOSelector_3_1 - processRequestWrapper response to /192.168.60.120:51958 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:46 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=11, language=GO, version=317, opaque=35, flag(B)=0, remark=, extFields={queueId=0, suspendTimeoutMillis=20000, maxMsgNums=32, sysFlag=2, commitOffset=0, topic=%RETRY%test, expressionType=TAG, queueOffset=0, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:46 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=24, language=JAVA, version=293, opaque=35, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:46 WARN PullMessageThread_17 - the consumer's group info not exist, group: test
+2023-08-18 20:49:46 ERROR NettyServerNIOSelector_3_1 - processRequestWrapper response to /192.168.60.120:51958 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:46 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=11, language=GO, version=317, opaque=29, flag(B)=0, remark=, extFields={queueId=0, maxMsgNums=32, sysFlag=2, suspendTimeoutMillis=20000, commitOffset=0, topic=test, expressionType=TAG, queueOffset=0, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:46 ERROR NettyServerNIOSelector_3_1 - RemotingCommand [code=24, language=JAVA, version=293, opaque=29, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:49:51 WARN PullMessageThread_6 - the consumer's group info not exist, group: test
+2023-08-18 20:49:51 WARN PullMessageThread_6 - the consumer's group info not exist, group: test
+2023-08-18 20:49:51 WARN PullMessageThread_6 - the consumer's group info not exist, group: test
+2023-08-18 20:49:51 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /192.168.60.120:51336 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:51 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=GO, version=317, opaque=31, flag(B)=0, remark=, extFields={queueId=0, maxMsgNums=32, sysFlag=2, suspendTimeoutMillis=20000, commitOffset=0, topic=%RETRY%test, queueOffset=0, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:51 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=293, opaque=31, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:51 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /192.168.60.120:51336 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:51 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=GO, version=317, opaque=39, flag(B)=0, remark=, extFields={queueId=3, sysFlag=2, maxMsgNums=32, suspendTimeoutMillis=20000, commitOffset=0, topic=test, expressionType=TAG, queueOffset=0, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:51 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=293, opaque=39, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:51 ERROR NettyServerNIOSelector_3_3 - processRequestWrapper response to /192.168.60.120:51336 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:49:51 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=11, language=GO, version=317, opaque=25, flag(B)=0, remark=, extFields={queueId=0, sysFlag=2, maxMsgNums=32, suspendTimeoutMillis=20000, commitOffset=0, topic=test, queueOffset=0, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:49:51 ERROR NettyServerNIOSelector_3_3 - RemotingCommand [code=24, language=JAVA, version=293, opaque=25, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:50:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:50:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 20:50:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:50:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:50:57 INFO HeartbeatThread_1 - new consumer connected, group: test CONSUME_PASSIVELY CLUSTERING channel: ClientChannelInfo [channel=[id: 0x3aade960, L:/172.21.0.3:10911 - R:/192.168.60.120:43206], clientId=192.168.60.120@147758, language=GO, version=317, lastUpdateTimestamp=1692363057230]
+2023-08-18 20:50:57 INFO HeartbeatThread_1 - subscription changed, add new topic, group: test SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692363057224212512, expressionType=TAG]
+2023-08-18 20:50:57 INFO HeartbeatThread_1 - subscription changed, add new topic, group: test SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692363057224175212, expressionType=TAG]
+2023-08-18 20:50:57 INFO HeartbeatThread_1 - registerConsumer info changed ConsumerData [groupName=test, consumeType=CONSUME_PASSIVELY, messageModel=CLUSTERING, consumeFromWhere=CONSUME_FROM_LAST_OFFSET, unitMode=false, subscriptionDataSet=[SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692363057224212512, expressionType=TAG], SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692363057224175212, expressionType=TAG]]] 192.168.60.120:43206
+2023-08-18 20:50:57 INFO HeartbeatThread_2 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692363057224212512, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=%RETRY%test, subString=*, tagsSet=[], codeSet=[], subVersion=1692363057237834848, expressionType=TAG]
+2023-08-18 20:50:57 INFO HeartbeatThread_1 - subscription changed, group: test OLD: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692363057224175212, expressionType=TAG] NEW: SubscriptionData [classFilterMode=false, topic=test, subString=*, tagsSet=[], codeSet=[], subVersion=1692363057244839666, expressionType=TAG]
+2023-08-18 20:51:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:51:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 20:51:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:51:27 WARN NettyEventExecutor - NETTY EVENT: remove not active channel[ClientChannelInfo [channel=[id: 0x3aade960, L:/172.21.0.3:10911 ! R:/192.168.60.120:43206], clientId=192.168.60.120@147758, language=GO, version=317, lastUpdateTimestamp=1692363058226]] from ConsumerGroupInfo groupChannelTable, consumer group: test
+2023-08-18 20:51:27 INFO NettyEventExecutor - unregister consumer ok, no any connection, and remove consumer group, test
+2023-08-18 20:51:41 WARN PullMessageThread_15 - the consumer's group info not exist, group: test
+2023-08-18 20:51:41 WARN PullMessageThread_19 - the consumer's group info not exist, group: test
+2023-08-18 20:51:41 WARN PullMessageThread_19 - the consumer's group info not exist, group: test
+2023-08-18 20:51:41 WARN PullMessageThread_15 - the consumer's group info not exist, group: test
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - processRequestWrapper response to /192.168.60.120:43206 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:51:41 WARN PullMessageThread_14 - the consumer's group info not exist, group: test
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - RemotingCommand [code=11, language=GO, version=317, opaque=45, flag(B)=0, remark=, extFields={queueId=3, maxMsgNums=32, suspendTimeoutMillis=20000, sysFlag=2, commitOffset=0, topic=test, expressionType=TAG, queueOffset=0, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - RemotingCommand [code=24, language=JAVA, version=293, opaque=45, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - processRequestWrapper response to /192.168.60.120:43206 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - RemotingCommand [code=11, language=GO, version=317, opaque=43, flag(B)=0, remark=, extFields={queueId=2, sysFlag=2, suspendTimeoutMillis=20000, maxMsgNums=32, commitOffset=0, topic=test, queueOffset=0, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - RemotingCommand [code=24, language=JAVA, version=293, opaque=43, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - processRequestWrapper response to /192.168.60.120:43206 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - RemotingCommand [code=11, language=GO, version=317, opaque=44, flag(B)=0, remark=, extFields={queueId=0, suspendTimeoutMillis=20000, maxMsgNums=32, sysFlag=2, commitOffset=0, topic=test, queueOffset=0, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - RemotingCommand [code=24, language=JAVA, version=293, opaque=44, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - processRequestWrapper response to /192.168.60.120:43206 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - RemotingCommand [code=11, language=GO, version=317, opaque=42, flag(B)=0, remark=, extFields={queueId=1, sysFlag=3, maxMsgNums=32, suspendTimeoutMillis=20000, commitOffset=2, topic=test, queueOffset=2, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - RemotingCommand [code=24, language=JAVA, version=293, opaque=42, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - processRequestWrapper response to /192.168.60.120:43206 failed
+java.nio.channels.ClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source) ~[netty-all-4.0.42.Final.jar:4.0.42.Final]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - RemotingCommand [code=11, language=GO, version=317, opaque=41, flag(B)=0, remark=, extFields={queueId=0, maxMsgNums=32, sysFlag=2, suspendTimeoutMillis=20000, commitOffset=0, topic=%RETRY%test, queueOffset=0, expressionType=TAG, subscription=, subVersion=0, consumerGroup=test}, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:51:41 ERROR NettyServerNIOSelector_3_2 - RemotingCommand [code=24, language=JAVA, version=293, opaque=41, flag(B)=1, remark=the consumer's group info not exist
+See http://rocketmq.apache.org/docs/faq/ for further details., extFields=null, serializeTypeCurrentRPC=JSON]
+2023-08-18 20:51:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:52:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:52:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 20:52:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:52:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:53:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:53:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 20:53:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:53:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:54:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:54:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 20:54:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:54:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:55:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:55:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 20:55:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:55:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:56:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:56:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 20:56:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:56:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:57:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:57:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 20:57:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:57:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:58:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:58:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 20:58:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:58:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:59:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 20:59:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 20:59:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 20:59:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:00:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:00:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:00:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:00:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:01:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:01:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:01:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:01:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:02:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:02:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:02:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:02:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:03:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:03:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:03:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:03:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:04:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:04:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:04:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:04:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:05:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:05:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:05:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:05:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:06:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:06:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:06:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:06:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:07:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:07:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:07:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:07:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:08:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:08:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:08:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:08:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:09:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:09:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:09:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:09:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:10:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:10:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:10:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:10:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:11:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:11:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:11:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:11:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:12:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:12:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:12:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:12:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:13:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:13:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:13:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:13:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:14:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:14:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:14:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:14:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:15:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:15:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:15:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:15:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:16:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:16:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:16:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:16:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:17:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:17:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:17:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:17:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:18:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:18:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:18:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:18:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:19:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:19:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:19:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:19:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:20:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:20:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:20:16 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:20:46 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:21:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:21:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 543 bytes
+2023-08-18 21:21:16 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:21:46 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:21:55 WARN SendMessageThread_1 - the topic tx-test not exist, producer: /192.168.60.120:59650
+2023-08-18 21:21:55 INFO SendMessageThread_1 - Create new topic by default topic:[TBW102] config:[TopicConfig [topicName=tx-test, readQueueNums=4, writeQueueNums=4, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]] producer:[192.168.60.120:59650]
+2023-08-18 21:21:55 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:21:56 INFO HeartbeatThread_1 - new producer connected, group: DEFAULT_PRODUCER channel: ClientChannelInfo [channel=[id: 0x44589dae, L:/172.21.0.3:10911 - R:/192.168.60.120:59650], clientId=192.168.60.120@158479, language=GO, version=317, lastUpdateTimestamp=1692364916891]
+2023-08-18 21:22:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:22:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1148 bytes
+2023-08-18 21:22:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:22:25 INFO NettyEventExecutor - NETTY EVENT: remove channel[ClientChannelInfo [channel=[id: 0x44589dae, L:/172.21.0.3:10911 ! R:/192.168.60.120:59650], clientId=192.168.60.120@158479, language=GO, version=317, lastUpdateTimestamp=1692364916891]][192.168.60.120:59650] from ProducerManager groupChannelTable, producer group: DEFAULT_PRODUCER
+2023-08-18 21:22:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:23:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:23:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1148 bytes
+2023-08-18 21:23:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:23:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:24:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:24:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1148 bytes
+2023-08-18 21:24:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:24:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:25:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:25:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1148 bytes
+2023-08-18 21:25:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:25:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:26:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:26:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1148 bytes
+2023-08-18 21:26:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:26:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:27:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:27:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1148 bytes
+2023-08-18 21:27:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:27:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:28:01 INFO HeartbeatThread_2 - new producer connected, group: DEFAULT_PRODUCER channel: ClientChannelInfo [channel=[id: 0xd1e0fea4, L:/172.21.0.3:10911 - R:/192.168.60.120:45528], clientId=192.168.60.120@162046, language=GO, version=317, lastUpdateTimestamp=1692365281702]
+2023-08-18 21:28:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:28:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:28:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:28:30 INFO NettyEventExecutor - NETTY EVENT: remove channel[ClientChannelInfo [channel=[id: 0xd1e0fea4, L:/172.21.0.3:10911 ! R:/192.168.60.120:45528], clientId=192.168.60.120@162046, language=GO, version=317, lastUpdateTimestamp=1692365281702]][192.168.60.120:45528] from ProducerManager groupChannelTable, producer group: DEFAULT_PRODUCER
+2023-08-18 21:28:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:29:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:29:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:29:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:29:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:30:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:30:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:30:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:30:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:31:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:31:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:31:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:31:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:32:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:32:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:32:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:32:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:33:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:33:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:33:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:33:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:34:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:34:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:34:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:34:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:35:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:35:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:35:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:35:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:36:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:36:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:36:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:36:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:37:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:37:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:37:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:37:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:38:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:38:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:38:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:38:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:39:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:39:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:39:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:39:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:40:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:40:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:40:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:40:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:41:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:41:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:41:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:41:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:42:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:42:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:42:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:42:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:43:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:43:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:43:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:43:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:44:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:44:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:44:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:44:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:45:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:45:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:45:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:45:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:46:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:46:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:46:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:46:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:47:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:47:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:47:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:47:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:48:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:48:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:48:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:48:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:49:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:49:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:49:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:49:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:50:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:50:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:50:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:50:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:51:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:51:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:51:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:51:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:52:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:52:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:52:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:52:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:53:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:53:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:53:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:53:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:54:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:54:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:54:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:54:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:55:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:55:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:55:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:55:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:56:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:56:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:56:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:56:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:57:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:57:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:57:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:57:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:58:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:58:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:58:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:58:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:59:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 21:59:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 21:59:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 21:59:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:00:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:00:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:00:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:00:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:01:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:01:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:01:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:01:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:02:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:02:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:02:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:02:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:03:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:03:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:03:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:03:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:04:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:04:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:04:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:04:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:05:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:05:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:05:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:05:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:06:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:06:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:06:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:06:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:07:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:07:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:07:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:07:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:08:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:08:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:08:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:08:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:09:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:09:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:09:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:09:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:10:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:10:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:10:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:10:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:11:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:11:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:11:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:11:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:12:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:12:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:12:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:12:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:13:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:13:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:13:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:13:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:14:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:14:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:14:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:14:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:15:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:15:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:15:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:15:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:16:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:16:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:16:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:16:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:17:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:17:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:17:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:17:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:18:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:18:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:18:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:18:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:19:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:19:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:19:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:19:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:20:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:20:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:20:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:20:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:21:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:21:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:21:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:21:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:22:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:22:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:22:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:22:46 INFO brokerOutApi_thread_4 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:23:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:23:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:23:16 INFO brokerOutApi_thread_1 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:23:46 INFO brokerOutApi_thread_2 - register broker to name server rmqnamesrv:9876 OK
+2023-08-18 22:24:15 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2023-08-18 22:24:15 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 1796 bytes
+2023-08-18 22:24:16 INFO brokerOutApi_thread_3 - register broker to name server rmqnamesrv:9876 OK

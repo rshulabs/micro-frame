@@ -1,7 +1,7 @@
 {
 	"dataVersion":{
-		"counter":1,
-		"timestamp":1692259463421
+		"counter":4,
+		"timestamp":1692364915893
 	},
 	"topicConfigTable":{
 		"SELF_TEST_TOPIC":{
@@ -31,12 +31,39 @@
 			"topicSysFlag":0,
 			"writeQueueNums":1
 		},
+		"test":{
+			"order":false,
+			"perm":6,
+			"readQueueNums":4,
+			"topicFilterType":"SINGLE_TAG",
+			"topicName":"test",
+			"topicSysFlag":0,
+			"writeQueueNums":4
+		},
 		"broker-a":{
 			"order":false,
 			"perm":7,
 			"readQueueNums":1,
 			"topicFilterType":"SINGLE_TAG",
 			"topicName":"broker-a",
+			"topicSysFlag":0,
+			"writeQueueNums":1
+		},
+		"tx-test":{
+			"order":false,
+			"perm":6,
+			"readQueueNums":4,
+			"topicFilterType":"SINGLE_TAG",
+			"topicName":"tx-test",
+			"topicSysFlag":0,
+			"writeQueueNums":4
+		},
+		"%RETRY%test":{
+			"order":false,
+			"perm":6,
+			"readQueueNums":1,
+			"topicFilterType":"SINGLE_TAG",
+			"topicName":"%RETRY%test",
 			"topicSysFlag":0,
 			"writeQueueNums":1
 		},

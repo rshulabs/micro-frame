@@ -1,382 +1,879 @@
-2023-08-17 16:03:21 INFO main - last shutdown normally
-2023-08-17 16:03:21 INFO main - load commit log OK
-2023-08-17 16:03:21 INFO main - load logics queue all over, OK
-2023-08-17 16:03:21 INFO main - store checkpoint file not exists, /root/store/checkpoint
-2023-08-17 16:03:21 INFO main - load over, and the max phy offset = 0
-2023-08-17 16:03:21 INFO AllocateMappedFileService - AllocateMappedFileService service started
-2023-08-17 16:03:22 INFO FlushConsumeQueueService - FlushConsumeQueueService service started
-2023-08-17 16:03:22 INFO FlushRealTimeService - FlushRealTimeService service started
-2023-08-17 16:03:22 INFO StoreStatsService - StoreStatsService service started
-2023-08-17 16:03:22 INFO ReputMessageService - ReputMessageService service started
-2023-08-17 16:03:22 INFO AcceptSocketService - AcceptSocketService service started
-2023-08-17 16:03:22 INFO GroupTransferService - GroupTransferService service started
-2023-08-17 16:03:22 INFO HAClient - HAClient service started
-2023-08-17 16:03:22 INFO main - /root/store/abort create OK
-2023-08-17 16:04:21 INFO StoreStatsService - [STORETPS] put_tps  get_found_tps  get_miss_tps  get_transfered_tps 
-2023-08-17 16:04:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:04:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:04:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:04:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:04:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:04:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:04:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:04:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:04:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:04:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:04:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:04:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:04:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:05:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:05:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:05:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:05:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:05:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:05:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:05:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331168074085178 get_transfered_tps 0.0
-2023-08-17 16:05:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:05:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:05:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:05:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:05:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:05:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:05:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:05:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:05:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:05:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:05:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:05:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:05:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:06:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:06:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:06:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:06:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:06:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:06:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:06:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033318895145436976 get_transfered_tps 0.0
-2023-08-17 16:06:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:06:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:06:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:06:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:06:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:06:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:06:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:06:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:06:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:06:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:06:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:06:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:06:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:07:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:07:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:07:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:07:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:07:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:07:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:07:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033301696721447956 get_transfered_tps 0.0
-2023-08-17 16:07:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:07:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:07:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:07:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:07:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:07:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:07:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:07:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:07:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:07:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:07:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:07:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:07:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:08:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:08:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:08:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:08:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:08:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:08:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:08:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331723000549734 get_transfered_tps 0.0
-2023-08-17 16:08:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:08:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:08:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:08:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:08:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:08:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:08:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:08:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:08:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:08:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:08:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:08:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:08:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:09:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:09:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:09:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:09:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:09:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:09:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:09:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033315010077790544 get_transfered_tps 0.0
-2023-08-17 16:09:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:09:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:09:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:09:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:09:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:09:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:09:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:09:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:09:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:09:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:09:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:09:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:09:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:10:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:10:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:10:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:10:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:10:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:10:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:10:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331445514208615 get_transfered_tps 0.0
-2023-08-17 16:10:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:10:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:10:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:10:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:10:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:10:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:10:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:10:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:10:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:10:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:10:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:10:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:10:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:11:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:11:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:11:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:11:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:11:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:11:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:11:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331612000466426 get_transfered_tps 0.0
-2023-08-17 16:11:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:11:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:11:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:11:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:11:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:11:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:11:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:11:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:11:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:11:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:11:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:11:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:11:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:12:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:12:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:12:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:12:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:12:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:12:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:12:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331612000466426 get_transfered_tps 0.0
-2023-08-17 16:12:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:12:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:12:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:12:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:12:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:12:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:12:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:12:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:12:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:12:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:12:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:12:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:12:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:13:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:13:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:13:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:13:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:13:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:13:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:13:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03329559832190184 get_transfered_tps 0.0
-2023-08-17 16:13:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:13:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:13:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:13:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:13:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:13:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:13:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:13:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:13:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:13:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:13:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:13:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:13:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:14:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:14:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:14:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:14:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:14:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:14:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:14:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331057110974168 get_transfered_tps 0.0
-2023-08-17 16:14:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:14:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:14:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:14:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:14:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:14:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:14:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:14:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:14:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:14:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:14:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:14:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:14:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:15:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:15:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:15:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:15:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:15:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:15:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:15:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331556503198294 get_transfered_tps 0.0
-2023-08-17 16:15:21 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:15:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:15:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:15:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:15:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:15:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:15:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:15:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:15:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:15:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:15:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:15:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:15:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:16:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:16:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:16:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:16:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:16:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:16:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:16:21 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331445514208615 get_transfered_tps 0.0
-2023-08-17 16:16:22 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:16:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:16:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:16:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:16:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:16:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:16:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:16:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:16:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:16:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:16:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:16:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:16:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:17:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:17:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:17:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:17:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:17:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:17:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:17:22 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331334532613765 get_transfered_tps 0.0
-2023-08-17 16:17:22 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:17:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:17:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:17:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:17:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:17:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:17:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:17:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:17:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:17:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:17:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:17:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:17:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:18:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:18:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:18:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:18:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:18:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:18:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:18:22 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033315010077790544 get_transfered_tps 0.0
-2023-08-17 16:18:22 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:18:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:18:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:18:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:18:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:18:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:18:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:18:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:18:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:18:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:18:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:18:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:18:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:19:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:19:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:19:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:19:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:19:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:19:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:19:22 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331390022486883 get_transfered_tps 0.0
-2023-08-17 16:19:22 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:19:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:19:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:19:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:19:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:19:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:19:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:19:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:19:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:19:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:19:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:19:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:19:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:20:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:20:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:20:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:20:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:20:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:20:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:20:22 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033315010077790544 get_transfered_tps 0.0
-2023-08-17 16:20:22 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:20:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:20:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:20:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:20:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:20:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:20:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:20:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:20:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:20:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:20:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:20:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:20:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:21:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:21:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:21:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:21:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:21:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:21:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:21:22 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331556503198294 get_transfered_tps 0.0
-2023-08-17 16:21:22 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:21:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:21:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:21:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:21:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:21:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:21:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:21:42 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:21:42 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:21:42 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:21:52 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:21:52 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:21:52 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:22:02 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:22:02 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:22:02 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:22:12 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:22:12 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:22:12 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:22:22 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03332000533120085 get_transfered_tps 0.0
-2023-08-17 16:22:22 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
-2023-08-17 16:22:22 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:22:22 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:22:22 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
-2023-08-17 16:22:32 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
-2023-08-17 16:22:32 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
-2023-08-17 16:22:32 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:32:51 INFO AllocateMappedFileService - AllocateMappedFileService service started
+2023-08-18 19:32:51 INFO main - last shutdown normally
+2023-08-18 19:32:51 INFO main - load commit log OK
+2023-08-18 19:32:51 INFO main - load logics queue all over, OK
+2023-08-18 19:32:51 INFO main - store checkpoint file not exists, /root/store/checkpoint
+2023-08-18 19:32:51 INFO main - load over, and the max phy offset = 0
+2023-08-18 19:32:52 INFO FlushConsumeQueueService - FlushConsumeQueueService service started
+2023-08-18 19:32:52 INFO FlushRealTimeService - FlushRealTimeService service started
+2023-08-18 19:32:52 INFO StoreStatsService - StoreStatsService service started
+2023-08-18 19:32:52 INFO ReputMessageService - ReputMessageService service started
+2023-08-18 19:32:53 INFO AcceptSocketService - AcceptSocketService service started
+2023-08-18 19:32:53 INFO HAClient - HAClient service started
+2023-08-18 19:32:53 INFO main - /root/store/abort create OK
+2023-08-18 19:32:53 INFO GroupTransferService - GroupTransferService service started
+2023-08-18 19:33:52 INFO StoreStatsService - [STORETPS] put_tps  get_found_tps  get_miss_tps  get_transfered_tps 
+2023-08-18 19:33:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:33:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:33:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:33:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:34:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:34:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:34:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:34:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:34:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:34:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:34:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:34:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:34:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:34:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:34:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:34:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:34:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:34:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:34:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:34:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331556503198294 get_transfered_tps 0.0
+2023-08-18 19:34:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:34:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:34:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:34:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:35:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:35:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:35:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:35:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:35:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:35:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:35:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:35:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:35:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:35:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:35:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:35:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:35:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:35:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:35:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:35:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331445514208615 get_transfered_tps 0.0
+2023-08-18 19:35:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:35:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:35:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:35:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:36:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:36:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:36:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:36:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:36:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:36:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:36:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:36:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:36:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:36:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:36:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:36:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:36:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:36:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:36:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:36:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033315010077790544 get_transfered_tps 0.0
+2023-08-18 19:36:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:36:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:36:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:36:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:37:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:37:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:37:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:37:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:37:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:37:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:37:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:37:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:37:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:37:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:37:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:37:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:37:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:37:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:37:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:37:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333127904458917 get_transfered_tps 0.0
+2023-08-18 19:37:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:37:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:37:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:37:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:38:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:38:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:38:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:38:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:38:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:38:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:38:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:38:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:38:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:38:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:38:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:38:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:38:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:38:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:38:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:38:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03329116452493508 get_transfered_tps 0.0
+2023-08-18 19:38:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:38:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:38:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:38:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:39:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:39:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:39:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:39:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:39:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:39:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:39:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:39:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:39:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:39:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:39:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:39:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:39:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:39:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:39:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:39:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333022512321833 get_transfered_tps 0.0
+2023-08-18 19:39:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:39:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:39:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:39:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:40:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:40:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:40:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:40:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:40:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:40:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:40:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:40:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:40:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:40:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:40:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:40:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:40:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:40:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:40:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:40:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033296152629563654 get_transfered_tps 0.0
+2023-08-18 19:40:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:40:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:40:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:40:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:41:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:41:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:41:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:41:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:41:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:41:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:41:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:41:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:41:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:41:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:41:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:41:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:41:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:41:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:41:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:41:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333022512321833 get_transfered_tps 0.0
+2023-08-18 19:41:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:41:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:41:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:41:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:42:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:42:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:42:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:42:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:42:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:42:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:42:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:42:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:42:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:42:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:42:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:42:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:42:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:42:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:42:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:42:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330890680167877 get_transfered_tps 0.0
+2023-08-18 19:42:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:42:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:42:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:42:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:43:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:43:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:43:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:43:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:43:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:43:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:43:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:43:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:43:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:43:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:43:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:43:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:43:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:43:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:43:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:43:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331057110974168 get_transfered_tps 0.0
+2023-08-18 19:43:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:43:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:43:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:43:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:44:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:44:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:44:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:44:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:44:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:44:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:44:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:44:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:44:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:44:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:44:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:44:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:44:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:44:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:44:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:44:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03332111559094999 get_transfered_tps 0.0
+2023-08-18 19:44:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:44:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:44:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:44:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:45:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:45:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:45:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:45:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:45:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:45:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:45:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:45:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:45:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:45:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:45:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:45:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:45:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:45:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:45:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:45:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033318340080297194 get_transfered_tps 0.0
+2023-08-18 19:45:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:45:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:45:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:45:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:46:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:46:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:46:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:46:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:46:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:46:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:46:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:46:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:46:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:46:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:46:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:46:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:46:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:46:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:46:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:46:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331667499583541 get_transfered_tps 0.0
+2023-08-18 19:46:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:46:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:46:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:46:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:47:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:47:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:47:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:47:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:47:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:47:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:47:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:47:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:47:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:47:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:47:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:47:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:47:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:47:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:47:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:47:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033321670748571335 get_transfered_tps 0.0
+2023-08-18 19:47:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:47:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:47:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:47:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:48:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:48:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:48:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:48:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:48:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:48:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:48:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:48:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:48:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:48:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:48:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:48:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:48:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:48:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:48:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:48:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033318895145436976 get_transfered_tps 0.0
+2023-08-18 19:48:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:48:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:48:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:48:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:49:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:49:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:49:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:49:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:49:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:49:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:49:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:49:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:49:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:49:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:49:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:49:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:49:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:49:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:49:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:49:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333205604518268 get_transfered_tps 0.0
+2023-08-18 19:49:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:49:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:49:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:49:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:50:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:50:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:50:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:50:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:50:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:50:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:50:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:50:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:50:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:50:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:50:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:50:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:50:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:50:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:50:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:50:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331945022907122 get_transfered_tps 0.0
+2023-08-18 19:50:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:50:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:50:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:50:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:51:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:51:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:51:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:51:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:51:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:51:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:51:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:51:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:51:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:51:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:51:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:51:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:51:43 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:51:43 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:51:43 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:51:52 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331445514208615 get_transfered_tps 0.0
+2023-08-18 19:51:52 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:51:53 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:51:53 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:51:53 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:52:03 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:52:03 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:52:03 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:52:13 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:52:13 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:52:13 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:52:23 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:52:23 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:52:23 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:52:33 INFO StoreScheduledThread1 - physic disk maybe full soon, so reclaim space, -1.0
+2023-08-18 19:52:33 INFO StoreScheduledThread1 - begin to delete before 48 hours file. timeup: false spacefull: true manualDeleteFileSeveralTimes: 0 cleanAtOnce: false
+2023-08-18 19:52:33 WARN StoreScheduledThread1 - disk space will be full soon, but delete file failed.
+2023-08-18 19:53:04 INFO AllocateMappedFileService - AllocateMappedFileService service started
+2023-08-18 19:53:04 INFO main - last shutdown abnormally
+2023-08-18 19:53:04 INFO main - load commit log OK
+2023-08-18 19:53:04 INFO main - load logics queue all over, OK
+2023-08-18 19:53:04 INFO main - store checkpoint file exists, /root/store/checkpoint
+2023-08-18 19:53:04 INFO main - store checkpoint file physicMsgTimestamp 0, 19700101000000000
+2023-08-18 19:53:04 INFO main - store checkpoint file logicsMsgTimestamp 0, 19700101000000000
+2023-08-18 19:53:04 INFO main - store checkpoint file indexMsgTimestamp 0, 19700101000000000
+2023-08-18 19:53:04 INFO main - load over, and the max phy offset = 0
+2023-08-18 19:53:05 INFO FlushConsumeQueueService - FlushConsumeQueueService service started
+2023-08-18 19:53:05 INFO FlushRealTimeService - FlushRealTimeService service started
+2023-08-18 19:53:05 INFO StoreStatsService - StoreStatsService service started
+2023-08-18 19:53:05 INFO ReputMessageService - ReputMessageService service started
+2023-08-18 19:53:05 INFO AcceptSocketService - AcceptSocketService service started
+2023-08-18 19:53:05 INFO GroupTransferService - GroupTransferService service started
+2023-08-18 19:53:05 INFO main - /root/store/abort already exists
+2023-08-18 19:53:05 INFO HAClient - HAClient service started
+2023-08-18 19:53:24 INFO AllocateMappedFileService - /root/store/commitlog mkdir OK
+2023-08-18 19:53:24 INFO ReputMessageService - /root/store/consumequeue/test/1 mkdir OK
+2023-08-18 19:53:24 INFO ReputMessageService - /root/store/index mkdir OK
+2023-08-18 19:53:42 WARN AdminBrokerThread_10 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:54:00 WARN AdminBrokerThread_12 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:54:03 WARN AdminBrokerThread_13 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:54:05 INFO StoreStatsService - [STORETPS] put_tps  get_found_tps  get_miss_tps  get_transfered_tps 
+2023-08-18 19:54:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 1, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:1 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:54:07 WARN AdminBrokerThread_14 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:54:25 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:54:52 WARN AdminBrokerThread_8 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:54:53 WARN AdminBrokerThread_9 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:55:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:55:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331057110974168 get_transfered_tps 0.0
+2023-08-18 19:55:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:55:17 WARN AdminBrokerThread_16 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:56:00 WARN AdminBrokerThread_2 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:56:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.01665639522294585 get_miss_tps 0.08328197611472925 get_transfered_tps 0.01665639522294585
+2023-08-18 19:56:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:57:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:57:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331168074085178 get_transfered_tps 0.0
+2023-08-18 19:57:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:58:00 WARN AdminBrokerThread_5 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:58:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330557868442964 get_transfered_tps 0.0
+2023-08-18 19:58:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 19:59:00 WARN AdminBrokerThread_14 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 19:59:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331612000466426 get_transfered_tps 0.0
+2023-08-18 19:59:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:00:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:00:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333205604518268 get_transfered_tps 0.0
+2023-08-18 20:00:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:01:00 WARN AdminBrokerThread_16 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:01:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330835206928137 get_transfered_tps 0.0
+2023-08-18 20:01:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:02:00 WARN AdminBrokerThread_9 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:02:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033318895145436976 get_transfered_tps 0.0
+2023-08-18 20:02:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:03:00 WARN AdminBrokerThread_2 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:03:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331057110974168 get_transfered_tps 0.0
+2023-08-18 20:03:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:04:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:04:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033306687982946975 get_transfered_tps 0.0
+2023-08-18 20:04:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:05:00 WARN AdminBrokerThread_4 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:05:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033303914875193574 get_transfered_tps 0.0
+2023-08-18 20:05:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:06:00 WARN AdminBrokerThread_13 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:06:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333028057613854 get_transfered_tps 0.0
+2023-08-18 20:06:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:07:00 WARN AdminBrokerThread_6 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:07:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033315010077790544 get_transfered_tps 0.0
+2023-08-18 20:07:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:08:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:08:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333127904458917 get_transfered_tps 0.0
+2023-08-18 20:08:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:09:00 WARN AdminBrokerThread_8 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:09:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033318340080297194 get_transfered_tps 0.0
+2023-08-18 20:09:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:10:00 WARN AdminBrokerThread_1 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:10:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03332000533120085 get_transfered_tps 0.0
+2023-08-18 20:10:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:11:00 WARN AdminBrokerThread_10 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:11:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033317785033650966 get_transfered_tps 0.0
+2023-08-18 20:11:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:12:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:12:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033321670748571335 get_transfered_tps 0.0
+2023-08-18 20:12:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:13:00 WARN AdminBrokerThread_12 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:13:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033315010077790544 get_transfered_tps 0.0
+2023-08-18 20:13:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:14:00 WARN AdminBrokerThread_5 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:14:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331667499583541 get_transfered_tps 0.0
+2023-08-18 20:14:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:15:00 WARN AdminBrokerThread_14 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:15:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.01665778251599147 get_miss_tps 0.09994669509594882 get_transfered_tps 0.01665778251599147
+2023-08-18 20:15:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:15:19 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:16:00 WARN AdminBrokerThread_9 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:16:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.16657505038895273 get_transfered_tps 0.0
+2023-08-18 20:16:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:17:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:17:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331612000466426 get_transfered_tps 0.0
+2023-08-18 20:17:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:18:00 WARN AdminBrokerThread_13 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:18:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331667499583541 get_transfered_tps 0.0
+2023-08-18 20:18:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:19:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:19:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331334532613765 get_transfered_tps 0.0
+2023-08-18 20:19:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:20:00 WARN AdminBrokerThread_1 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:20:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033311125916055964 get_transfered_tps 0.0
+2023-08-18 20:20:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:21:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:21:05 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331057110974168 get_transfered_tps 0.0
+2023-08-18 20:21:05 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:22:00 WARN AdminBrokerThread_5 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:22:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333061333244517 get_transfered_tps 0.0
+2023-08-18 20:22:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:23:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:23:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331390022486883 get_transfered_tps 0.0
+2023-08-18 20:23:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:24:00 WARN AdminBrokerThread_9 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:24:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331556503198294 get_transfered_tps 0.0
+2023-08-18 20:24:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:25:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:25:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330946155255401 get_transfered_tps 0.0
+2023-08-18 20:25:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:26:00 WARN AdminBrokerThread_13 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:26:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331445514208615 get_transfered_tps 0.0
+2023-08-18 20:26:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:27:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:27:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331612000466426 get_transfered_tps 0.0
+2023-08-18 20:27:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:28:00 WARN AdminBrokerThread_1 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:28:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331390022486883 get_transfered_tps 0.0
+2023-08-18 20:28:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:29:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:29:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331334532613765 get_transfered_tps 0.0
+2023-08-18 20:29:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:30:00 WARN AdminBrokerThread_5 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:30:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330336030905518 get_transfered_tps 0.0
+2023-08-18 20:30:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:31:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:31:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331556503198294 get_transfered_tps 0.0
+2023-08-18 20:31:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:32:00 WARN AdminBrokerThread_9 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:32:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331334532613765 get_transfered_tps 0.0
+2023-08-18 20:32:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:33:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:33:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333000333000333 get_transfered_tps 0.0
+2023-08-18 20:33:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:34:00 WARN AdminBrokerThread_13 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:34:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331612000466426 get_transfered_tps 0.0
+2023-08-18 20:34:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:35:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:35:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033315010077790544 get_transfered_tps 0.0
+2023-08-18 20:35:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:36:00 WARN AdminBrokerThread_1 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:36:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331334532613765 get_transfered_tps 0.0
+2023-08-18 20:36:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:37:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:37:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.06661115736885928 get_transfered_tps 0.0
+2023-08-18 20:37:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:38:00 WARN AdminBrokerThread_5 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:38:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033315010077790544 get_transfered_tps 0.0
+2023-08-18 20:38:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:39:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:39:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033317785033650966 get_transfered_tps 0.0
+2023-08-18 20:39:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:40:00 WARN AdminBrokerThread_9 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:40:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331390022486883 get_transfered_tps 0.0
+2023-08-18 20:40:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:41:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:41:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033315010077790544 get_transfered_tps 0.0
+2023-08-18 20:41:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:42:00 WARN AdminBrokerThread_13 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:42:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330946155255401 get_transfered_tps 0.0
+2023-08-18 20:42:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:43:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:43:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033322225924691765 get_transfered_tps 0.0
+2023-08-18 20:43:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:44:00 WARN AdminBrokerThread_1 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:44:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331667499583541 get_transfered_tps 0.0
+2023-08-18 20:44:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:45:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:45:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331445514208615 get_transfered_tps 0.0
+2023-08-18 20:45:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:46:00 WARN AdminBrokerThread_5 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:46:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0332883940014314 get_transfered_tps 0.0
+2023-08-18 20:46:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:47:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:47:06 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331945022907122 get_transfered_tps 0.0
+2023-08-18 20:47:06 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:48:00 WARN AdminBrokerThread_9 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:48:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033310016321908 get_transfered_tps 0.0
+2023-08-18 20:48:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:49:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:49:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.1499375260308205 get_transfered_tps 0.0
+2023-08-18 20:49:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:49:34 INFO ReputMessageService - /root/store/consumequeue/SCHEDULE_TOPIC_XXXX/2 mkdir OK
+2023-08-18 20:50:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:50:07 INFO StoreStatsService - [STORETPS] put_tps 0.03331612000466426 get_found_tps 0.24987090003498194 get_miss_tps 1.1660642001632489 get_transfered_tps 0.44976762006296744
+2023-08-18 20:50:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 2, PutMessageDistributeTime [<=0ms]:1 [0~10ms]:1 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:50:42 WARN AdminBrokerThread_16 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:50:47 WARN AdminBrokerThread_1 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:51:00 WARN AdminBrokerThread_13 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:51:06 WARN AdminBrokerThread_14 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:51:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.04992178919692482 get_miss_tps 0.21632775318667422 get_transfered_tps 0.08320298199487469
+2023-08-18 20:51:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:52:00 WARN AdminBrokerThread_10 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:52:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.033303914875193574 get_miss_tps 0.2997352338767422 get_transfered_tps 0.06660782975038715
+2023-08-18 20:52:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:53:00 WARN AdminBrokerThread_4 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:53:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331723000549734 get_transfered_tps 0.0
+2023-08-18 20:53:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:54:00 WARN AdminBrokerThread_14 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:54:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333127904458917 get_transfered_tps 0.0
+2023-08-18 20:54:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:55:00 WARN AdminBrokerThread_8 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:55:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331445514208615 get_transfered_tps 0.0
+2023-08-18 20:55:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:56:00 WARN AdminBrokerThread_2 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:56:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331334532613765 get_transfered_tps 0.0
+2023-08-18 20:56:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:57:00 WARN AdminBrokerThread_12 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:57:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331168074085178 get_transfered_tps 0.0
+2023-08-18 20:57:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:58:00 WARN AdminBrokerThread_6 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:58:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330890680167877 get_transfered_tps 0.0
+2023-08-18 20:58:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 20:59:00 WARN AdminBrokerThread_16 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 20:59:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331390022486883 get_transfered_tps 0.0
+2023-08-18 20:59:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:00:00 WARN AdminBrokerThread_10 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:00:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033318340080297194 get_transfered_tps 0.0
+2023-08-18 21:00:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:01:00 WARN AdminBrokerThread_4 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:01:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331667499583541 get_transfered_tps 0.0
+2023-08-18 21:01:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:02:00 WARN AdminBrokerThread_14 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:02:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03328340822100183 get_transfered_tps 0.0
+2023-08-18 21:02:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:03:00 WARN AdminBrokerThread_8 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:03:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331390022486883 get_transfered_tps 0.0
+2023-08-18 21:03:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:04:00 WARN AdminBrokerThread_2 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:04:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033296706955682084 get_transfered_tps 0.0
+2023-08-18 21:04:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:05:00 WARN AdminBrokerThread_12 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:05:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331390022486883 get_transfered_tps 0.0
+2023-08-18 21:05:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:06:00 WARN AdminBrokerThread_6 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:06:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331445514208615 get_transfered_tps 0.0
+2023-08-18 21:06:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:07:00 WARN AdminBrokerThread_16 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:07:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331057110974168 get_transfered_tps 0.0
+2023-08-18 21:07:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:08:00 WARN AdminBrokerThread_10 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:08:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331723000549734 get_transfered_tps 0.0
+2023-08-18 21:08:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:09:00 WARN AdminBrokerThread_4 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:09:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331556503198294 get_transfered_tps 0.0
+2023-08-18 21:09:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:10:00 WARN AdminBrokerThread_14 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:10:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033318340080297194 get_transfered_tps 0.0
+2023-08-18 21:10:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:11:00 WARN AdminBrokerThread_8 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:11:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331945022907122 get_transfered_tps 0.0
+2023-08-18 21:11:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:12:00 WARN AdminBrokerThread_2 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:12:07 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033318340080297194 get_transfered_tps 0.0
+2023-08-18 21:12:07 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:13:00 WARN AdminBrokerThread_12 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:13:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03332000533120085 get_transfered_tps 0.0
+2023-08-18 21:13:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:14:00 WARN AdminBrokerThread_6 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:14:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333205604518268 get_transfered_tps 0.0
+2023-08-18 21:14:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:15:00 WARN AdminBrokerThread_16 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:15:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.033315010077790544 get_transfered_tps 0.0
+2023-08-18 21:15:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:16:00 WARN AdminBrokerThread_10 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:16:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03330779735536089 get_transfered_tps 0.0
+2023-08-18 21:16:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:17:00 WARN AdminBrokerThread_4 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:17:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331667499583541 get_transfered_tps 0.0
+2023-08-18 21:17:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:18:00 WARN AdminBrokerThread_14 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:18:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0333205604518268 get_transfered_tps 0.0
+2023-08-18 21:18:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:19:00 WARN AdminBrokerThread_8 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:19:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331390022486883 get_transfered_tps 0.0
+2023-08-18 21:19:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:20:00 WARN AdminBrokerThread_2 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:20:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331390022486883 get_transfered_tps 0.0
+2023-08-18 21:20:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:21:00 WARN AdminBrokerThread_12 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:21:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.03331445514208615 get_transfered_tps 0.0
+2023-08-18 21:21:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:21:55 INFO ReputMessageService - /root/store/consumequeue/RMQ_SYS_TRANS_HALF_TOPIC/0 mkdir OK
+2023-08-18 21:21:58 INFO ReputMessageService - /root/store/consumequeue/tx-test/1 mkdir OK
+2023-08-18 21:21:58 INFO ReputMessageService - /root/store/consumequeue/RMQ_SYS_TRANS_OP_HALF_TOPIC/0 mkdir OK
+2023-08-18 21:22:00 WARN AdminBrokerThread_6 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:22:08 INFO StoreStatsService - [STORETPS] put_tps 0.04997418000699638 get_found_tps 0.01665806000233213 get_miss_tps 0.03331612000466426 get_transfered_tps 0.01665806000233213
+2023-08-18 21:22:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 3, PutMessageDistributeTime [<=0ms]:3 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:23:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:23:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0333127904458917 get_miss_tps 0.08328197611472925 get_transfered_tps 0.0333127904458917
+2023-08-18 21:23:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:24:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:24:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997917534360683 get_transfered_tps 0.0
+2023-08-18 21:24:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:25:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:25:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997251511668582 get_transfered_tps 0.0
+2023-08-18 21:25:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:26:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:26:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04998000799680128 get_transfered_tps 0.0
+2023-08-18 21:26:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:27:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:27:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997418000699638 get_transfered_tps 0.0
+2023-08-18 21:27:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:28:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:28:08 INFO StoreStatsService - [STORETPS] put_tps 0.0333205604518268 get_found_tps 0.1832630824850474 get_miss_tps 0.16660280225913401 get_transfered_tps 0.1832630824850474
+2023-08-18 21:28:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 2, PutMessageDistributeTime [<=0ms]:2 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:29:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:29:08 INFO StoreStatsService - [STORETPS] put_tps 0.01665584037042589 get_found_tps 0.03331168074085178 get_miss_tps 0.08327920185212945 get_transfered_tps 0.03331168074085178
+2023-08-18 21:29:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 1, PutMessageDistributeTime [<=0ms]:1 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:30:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:30:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.016657227571043074 get_miss_tps 0.03331445514208615 get_transfered_tps 0.016657227571043074
+2023-08-18 21:30:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:31:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:31:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.0499542086420781 get_transfered_tps 0.0
+2023-08-18 21:31:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:32:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:32:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049955040463582776 get_transfered_tps 0.0
+2023-08-18 21:32:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:33:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:33:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997001798920648 get_transfered_tps 0.0
+2023-08-18 21:33:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:34:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:34:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997334754797441 get_transfered_tps 0.0
+2023-08-18 21:34:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:35:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:35:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049971682713129226 get_transfered_tps 0.0
+2023-08-18 21:35:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:36:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:36:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049948386667110656 get_transfered_tps 0.0
+2023-08-18 21:36:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:37:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:37:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997418000699638 get_transfered_tps 0.0
+2023-08-18 21:37:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:38:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:38:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049971682713129226 get_transfered_tps 0.0
+2023-08-18 21:38:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:39:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:39:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049941734642916596 get_transfered_tps 0.0
+2023-08-18 21:39:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:40:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:40:08 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997501249375313 get_transfered_tps 0.0
+2023-08-18 21:40:08 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:41:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:41:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04996835337619508 get_transfered_tps 0.0
+2023-08-18 21:41:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:42:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:42:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997001798920648 get_transfered_tps 0.0
+2023-08-18 21:42:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:43:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:43:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997334754797441 get_transfered_tps 0.0
+2023-08-18 21:43:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:44:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:44:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04996419232883101 get_transfered_tps 0.0
+2023-08-18 21:44:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:45:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:45:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997667755047644 get_transfered_tps 0.0
+2023-08-18 21:45:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:46:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:46:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049971682713129226 get_transfered_tps 0.0
+2023-08-18 21:46:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:47:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:47:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04995836802664446 get_transfered_tps 0.0
+2023-08-18 21:47:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:48:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:48:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04993924059061475 get_transfered_tps 0.0
+2023-08-18 21:48:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:49:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:49:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049971682713129226 get_transfered_tps 0.0
+2023-08-18 21:49:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:50:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:50:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04994755506717946 get_transfered_tps 0.0
+2023-08-18 21:50:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:51:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:51:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04993342210386152 get_transfered_tps 0.0
+2023-08-18 21:51:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:52:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:52:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997085033730324 get_transfered_tps 0.0
+2023-08-18 21:52:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:53:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:53:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997251511668582 get_transfered_tps 0.0
+2023-08-18 21:53:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:54:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:54:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049969185668837554 get_transfered_tps 0.0
+2023-08-18 21:54:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:55:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:55:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04995919998667755 get_transfered_tps 0.0
+2023-08-18 21:55:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:56:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:56:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997334754797441 get_transfered_tps 0.0
+2023-08-18 21:56:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:57:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:57:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997085033730324 get_transfered_tps 0.0
+2023-08-18 21:57:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:58:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:58:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997501249375313 get_transfered_tps 0.0
+2023-08-18 21:58:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 21:59:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 21:59:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04996252810392206 get_transfered_tps 0.0
+2023-08-18 21:59:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:00:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:00:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997667755047644 get_transfered_tps 0.0
+2023-08-18 22:00:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:01:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:01:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997418000699638 get_transfered_tps 0.0
+2023-08-18 22:01:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:02:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:02:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04995836802664446 get_transfered_tps 0.0
+2023-08-18 22:02:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:03:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:03:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997334754797441 get_transfered_tps 0.0
+2023-08-18 22:03:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:04:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:04:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997418000699638 get_transfered_tps 0.0
+2023-08-18 22:04:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:05:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:05:09 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997418000699638 get_transfered_tps 0.0
+2023-08-18 22:05:09 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:06:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:06:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997334754797441 get_transfered_tps 0.0
+2023-08-18 22:06:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:07:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:07:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04996336020251815 get_transfered_tps 0.0
+2023-08-18 22:07:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:08:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:08:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049971682713129226 get_transfered_tps 0.0
+2023-08-18 22:08:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:09:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:09:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049971682713129226 get_transfered_tps 0.0
+2023-08-18 22:09:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:10:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:10:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04996835337619508 get_transfered_tps 0.0
+2023-08-18 22:10:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:11:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:11:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04995753609431983 get_transfered_tps 0.0
+2023-08-18 22:11:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:12:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:12:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997334754797441 get_transfered_tps 0.0
+2023-08-18 22:12:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:13:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:13:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997418000699638 get_transfered_tps 0.0
+2023-08-18 22:13:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:14:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:14:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997584500824601 get_transfered_tps 0.0
+2023-08-18 22:14:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:15:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:15:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997418000699638 get_transfered_tps 0.0
+2023-08-18 22:15:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:16:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:16:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049971682713129226 get_transfered_tps 0.0
+2023-08-18 22:16:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:17:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:17:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997251511668582 get_transfered_tps 0.0
+2023-08-18 22:17:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:18:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:18:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997584500824601 get_transfered_tps 0.0
+2023-08-18 22:18:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:19:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:19:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04995670418970226 get_transfered_tps 0.0
+2023-08-18 22:19:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:20:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:20:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049953376848274944 get_transfered_tps 0.0
+2023-08-18 22:20:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:21:00 WARN AdminBrokerThread_11 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:21:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.049965024482862 get_transfered_tps 0.0
+2023-08-18 22:21:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:22:00 WARN AdminBrokerThread_7 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:22:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04996336020251815 get_transfered_tps 0.0
+2023-08-18 22:22:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:23:00 WARN AdminBrokerThread_3 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:23:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997251511668582 get_transfered_tps 0.0
+2023-08-18 22:23:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 
+2023-08-18 22:24:00 WARN AdminBrokerThread_15 - selectMappedBuffer request pos invalid, request pos: 0, size: 8388608, fileFromOffset: 0
+2023-08-18 22:24:10 INFO StoreStatsService - [STORETPS] put_tps 0.0 get_found_tps 0.0 get_miss_tps 0.04997501249375313 get_transfered_tps 0.0
+2023-08-18 22:24:10 INFO StoreStatsService - [PAGECACHERT] TotalPut 0, PutMessageDistributeTime [<=0ms]:0 [0~10ms]:0 [10~50ms]:0 [50~100ms]:0 [100~200ms]:0 [200~500ms]:0 [500ms~1s]:0 [1~2s]:0 [2~3s]:0 [3~4s]:0 [4~5s]:0 [5~10s]:0 [10s~]:0 

@@ -1,3 +1,12 @@
 {
-	"offsetTable":{}
+	"offsetTable":{
+		"%RETRY%test@test":{0:0
+		},
+		"test@test":{0:0,1:2,2:0,3:0
+		},
+		"RMQ_SYS_TRANS_HALF_TOPIC@CID_RMQ_SYS_TRANS":{0:3
+		},
+		"RMQ_SYS_TRANS_OP_HALF_TOPIC@CID_RMQ_SYS_TRANS":{0:2
+		}
+	}
 }
