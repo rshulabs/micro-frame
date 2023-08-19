@@ -1,28 +1,15 @@
-package discovery
-
+package etcd
 import (
 	"context"
 	"fmt"
 	"time"
 
 	"github.com/google/uuid"
+	"github.com/rshulabs/micro-frame/internal/pkg/discovery"
 	"github.com/rshulabs/micro-frame/pkg/logx"
 
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
-
-// 服务类型
-type Service interface {
-	Name() string
-	Addr() string
-}
-
-type Registry interface {
-	// 注册
-	Regisrty(srv Service) error
-	// 注销
-	DeRegistry(srv Service) error
-}
 
 // 基于etcd服务发现中间件，实现regisrty
 type EtcdRegisty struct {
@@ -64,7 +51,7 @@ func NewEtcdRegisty(endpoints []string, opts ...Option) (*EtcdRegisty, error) {
 	return er, nil
 }
 
-func (r *EtcdRegisty) Registy(srv Service) error {
+func (r *EtcdRegisty) Registy(srv discovery.Service) error {
 	// 申请租约
 	grantRes, err := r.cli.Grant(context.Background(), r.leaseTTL)
 	if err != nil {

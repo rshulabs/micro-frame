@@ -6,5 +6,6 @@ import (
 )
 
 func Ping(c *gin.Context) {
+	
 	response.WriteResponse(c, nil, "pong")
 }

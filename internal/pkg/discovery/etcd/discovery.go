@@ -1,21 +1,14 @@
-package discovery
+package etcd
 
 import (
 	"context"
 	"fmt"
-	"math/rand"
 	"time"
 
-	"github.com/rshulabs/micro-frame/pkg/logx"
+	"github.com/rshulabs/micro-frame/internal/pkg/discovery"
+	lb "github.com/rshulabs/micro-frame/internal/pkg/discovery/lb/consisthash"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
-
-type Discovery interface {
-	// 获取服务器的一个地址
-	GetServiceAddr(serviceName string) (string, error)
-	// 监控服务地址变化
-	WatchService(serviceName string) error
-}
 
 type EtcdDiscovery struct {
 	cli *clientv3.Client
@@ -38,26 +31,26 @@ func NewEtcdDiscovery(endpoints []string) (*EtcdDiscovery, error) {
 	}, nil
 }
 
-func (d *EtcdDiscovery) GetServiceAddr(serviceName string) (string, error) {
+func (d *EtcdDiscovery) GetServiceAddr(srv *discovery.DisService) (string, error) {
 	// get --prefix
-	gResp, err := d.cli.Get(context.Background(), serviceName, clientv3.WithPrefix())
+	gResp, err := d.cli.Get(context.Background(), srv.ServiceName, clientv3.WithPrefix())
 	if err != nil {
 		return "", err
 	}
 	if len(gResp.Kvs) == 0 {
-		return "", fmt.Errorf("%s service is not found", serviceName)
+		return "", fmt.Errorf("%s service is not found", srv.ServiceName)
+	}
+	m := lb.NewMap(srv.Replicas, nil)
+	for _, v := range gResp.Kvs {
+		go m.Add(v.String())
 	}
 	// 采用随机LB，做负载均衡
-	randIndex := rand.Intn(len(gResp.Kvs)) // [0,n)
-	addr := string(gResp.Kvs[randIndex].Value)
+	// randIndex := rand.Intn(len(gResp.Kvs)) // [0,n)
+	// addr := string(gResp.Kvs[randIndex].Value)
+	addr := m.Get(srv.Url)
 	return addr, nil
 }
 
-func (d *EtcdDiscovery) WatchService(serviceName string) error {
-	ch := d.cli.Watch(context.Background(), serviceName, clientv3.WithPrefix())
-	select {
-	case <-ch:
-		logx.Info("service changed")
-	}
+func (d *EtcdDiscovery) WatchService(srv discovery.DisService) error {
 	return nil
 }
